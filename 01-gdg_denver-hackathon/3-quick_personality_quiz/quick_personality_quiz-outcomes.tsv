@@ -1,0 +1,22 @@
+		
+Personality Quiz, Outcomes		
+		
+Notes in here:  e.g. The game will look for the closest match so we don't have to provide all permutations.  However, the more provided the better user experience is. Since the closest distance algo may not always make sense.		
+		
+Outcome	Positive Traits	Negative Traits
+You just might be an ENFJ Giver	extraversion & intuition & feeling & judging	introversion & sensing & thinking & perceiving
+You just might be an ENFP Champion	extraversion & intuition & feeling & perceiving	introversion & sensing & thinking & judging
+You just might be an ENTJ Commander	extraversion & intuition & thinking & judging	introversion & sensing & feeling & perceiving
+You just might be an ENTP Visionary	extraversion & intuition & thinking & perceiving	introversion & sensing & feeling & judging
+You just might be an ESFJ Provider	extraversion & sensing & feeling & judging	introversion & intuition & thinking & perceiving
+You just might be an ESFP Performer	extraversion & sensing & feeling & perceiving	introversion & intuition & thinking & judging
+You just might be an ESTJ Supervisor	extraversion & sensing & thinking & judging	introversion & intuition & feeling & perceiving
+You just might be an ESTP Doer	extraversion & sensing & thinking & perceiving	introversion & intuition & feeling & judging
+You just might be an INFJ Counselor	introversion & intuition & feeling & judging	extraversion & sensing & thinking & perceiving
+You just might be an INFP Idealist	introversion & intuition & feeling & perceiving	extraversion & sensing & thinking & judging
+You just might be an INTJ Mastermind	introversion & intuition & thinking & judging	extraversion & sensing & feeling & perceiving
+You just might be an INTP Thinker	introversion & intuition & thinking & perceiving	extraversion & sensing & feeling & judging
+You just might be an ISFJ Nurturer	introversion & sensing & feeling & judging	extraversion & intuition & thinking & perceiving
+You just might be an ISFP Composer	introversion & sensing & feeling & perceiving	extraversion & intuition & thinking & judging
+You just might be an ISTJ Inspector	introversion & sensing & thinking & judging	extraversion & intuition & feeling & perceiving
+You just might be an ISTP Craftsman	introversion & sensing & thinking & perceiving	extraversion & intuition & feeling & judging
