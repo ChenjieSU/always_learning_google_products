@@ -16,6 +16,10 @@ This repo is for learning how to program the Google Assistant.
 
 - Cleaned up copy of Tom's trivia with some additional questions and better images.
 
+### Mini Personality Type
+
+- Single-word mini-description for each type come from http://www.personalityperfect.com/16-personality-types/ .
+
 #### Notes and hints:
 
 Creating a "Follow up" with two sentences seems to cause a validation error that cannot be easily cleared.
