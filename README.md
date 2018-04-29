@@ -16,21 +16,14 @@ This repo is for learning how to program the Google Assistant.
 
 - Cleaned up copy of Tom's trivia with some additional questions and better images.
 
-### Mini Personality Type
+### Quick Personality Type Quiz
 
 - Single-word mini-description for each type come from http://www.personalityperfect.com/16-personality-types/ .
+- Doesn't work very well, but I feel like I'm getting the hang of things
 
-#### Notes and hints:
+### Founding Fathers Flash Cards
 
-Creating a "Follow up" with two sentences seems to cause a validation error that cannot be easily cleared.
-You need to clear the cell and start over.
+- Basing these on info used in the Trivia game
 
-To get Google Assistant to load a new spreadsheet:
-
-- Overview -> Trivia Actions - is the same as just:
-- Actions -> Trivia Template - then do
-- Content -> Next -> Upload - I don't think you need to change the url, we just want to make it Upload the new data
-- Create App
-- Simulator
-
+## Notes and hints:
 
