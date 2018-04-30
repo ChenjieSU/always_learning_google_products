@@ -28,9 +28,19 @@ This repo is for learning how to program the Google Assistant.
   then tried to delete it and that messed up the ability to properly invoke the new project.  Seriously.
   The old one is scheduled for full deletion in a month, on 5/29.
 - Cleared up the issue with the two projects but still unable to invoke the app
+- Getting "Founding fathers flashcards isn't responding right now. Try again soon."
+- Debug tab shows: "agentToAssistantJson": "Service unavailable",
+- Log tab shows: "App returned an HTTP error. State: URL_UNREACHABLE"
 - Retry from scratch with a new project name: Founding Fathers Factoids
 
-### Founding Fathers Factoids
+### Founding Fathers Facts
 
 - Re-using same data created (copied from the trivia game) for Founding Fathers Flash Cards
+
+## Submissions
+
+### Video Links:
+
+- founding_fathers_trivia - https://youtu.be/81rzIDTGAjc
+- quick_personality_quiz - https://www.youtube.com/watch?v=vVE4BRQ9_zk
 
