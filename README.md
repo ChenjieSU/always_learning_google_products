@@ -24,6 +24,13 @@ This repo is for learning how to program the Google Assistant.
 ### Founding Fathers Flash Cards
 
 - Basing these on info used in the Trivia game
+- Trying to invoke this got hosed because it kept hearing 'flashcards' instead of flash cards' and I tried to rename it
+  then tried to delete it and that messed up the ability to properly invoke the new project.  Seriously.
+  The old one is scheduled for full deletion in a month, on 5/29.
+- Cleared up the issue with the two projects but still unable to invoke the app
+- Retry from scratch with a new project name: Founding Fathers Factoids
 
-## Notes and hints:
+### Founding Fathers Factoids
+
+- Re-using same data created (copied from the trivia game) for Founding Fathers Flash Cards
 
