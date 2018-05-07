@@ -1,4 +1,4 @@
-# always_learning_ga
+# always_learning_google_assistant
 
 This repo is for learning how to program the Google Assistant.
 
