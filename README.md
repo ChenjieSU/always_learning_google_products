@@ -33,6 +33,26 @@ This repo is for learning how to program the Google Assistant.
 - Log tab shows: "App returned an HTTP error. State: URL_UNREACHABLE"
 - Retry from scratch with a new project name: Founding Fathers Factoids
 
+Deleted both flash cards projects on 2018-05-07:
+
+- Project ID: founding-fathers-flash-cards, Project number: 
+- "BAD FF Flashcards FUBARED" - Project ID: founding-fathers-flashcards, Project number: 502900007029
+
+Projects are "now shut down and scheduled to be deletion after 6/6/18."
+See emails to main google account sent on 2018-05-07.
+
+#### Tips for Deleting GA Projects
+
+**Note:** Unable to delete via the gear icon on the project's page in actions on google (despite having done it that way before).
+(Get "Authentication failure.")
+
+**To delete:**
+Follow this process (as of 2018-05-07):
+
+1. Access project page, make sure name won't be used (e.g., use "OLD" or "BAD" or "FUBARED" in name,  and all invocations)
+2. Gear icon on project page -> Permissions -> (New Page)
+3. Google Cloud Platform/IAM & Admin menu -> Gear icon (Settings) -> Shut down
+
 ### Founding Fathers Facts
 
 - Re-using same data created (copied from the trivia game) for Founding Fathers Flash Cards
