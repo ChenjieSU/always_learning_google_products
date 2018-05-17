@@ -113,8 +113,17 @@ Moving on to try the tutorial examples at Google code labs.  For details, see th
   - Now get this in a popup: "Project Service The project has a lien against it.  Tracking number: 2412696064732306085"
   - Looking at solution here: https://stackoverflow.com/questions/47337549/google-cloud-platform-not-allowing-project-shut-down-due-to-lien?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
   - Log into console.dialogflow.com - Log on using google account (tomwhartung@gmail.com)
-  - Settings
-
+  - Gear icon -> opens to "General" tab
+  - At the bottom: "Danger Zone," "Delete Agent," "DELETE THIS AGENT" button -> clicking it now.
+  - Deleted agent from my list, which can be seen by clicking on the agent name -> View all agents
+- Back to Actions console -> Gear Icon -> Project settings -> DELETE PROJECT
+  - Still getting this error:
+    "This project cannot be deleted because it is connected to a Dialogflow agent. Please delete the agent in Dialogflow first.
+  - Yikes, maybe I should not have deleted the entry for which Role = "Dialogflow API Client" (above)??
+- Trying Actions console -> Gear icon -> Gear icon Services -> SHUT DOWN
+  - Did not work, same error as before
+  - Sent some feedback to google
+  - **Leaving this for now.**
 
 
 ### Tom's Trivia - mentioned above
