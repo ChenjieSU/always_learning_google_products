@@ -65,7 +65,7 @@ Follow this process (as of 2018-05-07):
 
 1. Access project page: Gear icon on project page -> Project
 1. Change the name to make sure name won't be used - e.g., use "OLD" or "BAD" or "FUBARED" in name
-1.   and all invocations
+1. Change the name in all invocations
 1. Gear icon on project page -> Permissions -> (New Page)
 1. Google Cloud Platform/IAM & Admin menu -> Gear icon (Settings) -> Shut down
 
@@ -87,6 +87,16 @@ Follow this process (as of 2018-05-07):
 ## Final Cleanup - Deleted These Projects on 2018-05-17:
 
 Moving on to try the tutorial examples at Google code labs.  For details, see the directory ../02-google_code_lab .
+
+Trying to do some cleanup before shifting gears.
+
+### Tom's Trivia - mentioned above
+
+- Gear icon -> Project Settings: Changed name to "OLD Tom's Trivia DELETED"
+- Updated invocations to match the new name
+- Gear icon on project page -> Permissions -> (New Page)
+- Google Cloud Platform/IAM & Admin menu -> Gear icon (Settings) -> Shut down
+- Success!  "Project "OLD Tom's Trivia DELETED" is now shut down and scheduled to be deleted after 6/16/18."
 
 ### Tom's Silly Name - NOT mentioned above
 
@@ -125,9 +135,4 @@ Moving on to try the tutorial examples at Google code labs.  For details, see th
   - Sent some feedback to google
   - **Leaving this for now.**
 
-
-### Tom's Trivia - mentioned above
-
-- No invocations
-- Gear icon -> Project Settings: Changed name to
 
