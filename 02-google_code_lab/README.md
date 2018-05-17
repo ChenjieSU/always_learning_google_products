@@ -38,8 +38,18 @@ This section contains paraphrased definitions of key terms.
 ### 1.5: Create conversational responses
 
 - Parameters (Dialogflow): values that Dialogflow parses from user input
-- Dialogflow intent:
-- Dialogflow webhook (fulfillment):
+- Dialogflow intent: maps user input to the agent's static or dynamic response
+- Dialogflow webhook (fulfillment): code for handling intents and returning a dynamic response to the user
+- Training phrase (Dialogflow): examples of user input used to train the model and match future inputs
+- Entities (Dialogflow): a category of things, such as colors or dates
+
+### 1.6: Implement a webhook
+
+- (None.)
+
+### 1.7: Next steps
+
+- (None.)
 
 ## Local Copy of the Code
 
