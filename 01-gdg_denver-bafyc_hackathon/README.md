@@ -11,7 +11,7 @@ This directory is about the GDG Denver Build Actions for Your Community (BAFYC) 
 - Docs out of sync, got confused quickly, with the welcome intent
 - Need to give this a shot later
 
-### Tom's Trivia
+### Tom's Trivia - **Deleted 2018-05-17**
 
 - This is looking better than the dialogflow attempt.
 
@@ -24,7 +24,7 @@ This directory is about the GDG Denver Build Actions for Your Community (BAFYC) 
 - Single-word mini-description for each type come from http://www.personalityperfect.com/16-personality-types/ .
 - Doesn't work very well, but I feel like I'm getting the hang of things
 
-### Founding Fathers Flash Cards
+### Founding Fathers Flash Cards - **Deleted 2018-05-07**
 
 - Basing these on info used in the Trivia game
 - Trying to invoke this got hosed because it kept hearing 'flashcards' instead of flash cards' and I tried to rename it
@@ -63,9 +63,15 @@ See starred emails to main google account from "Platform Notifications" sent on 
 **To delete:**
 Follow this process (as of 2018-05-07):
 
-1. Access project page, make sure name won't be used (e.g., use "OLD" or "BAD" or "FUBARED" in name,  and all invocations)
-2. Gear icon on project page -> Permissions -> (New Page)
-3. Google Cloud Platform/IAM & Admin menu -> Gear icon (Settings) -> Shut down
+1. Access project page: Gear icon on project page -> Project
+1. Change the name to make sure name won't be used - e.g., use "OLD" or "BAD" or "FUBARED" in name
+1.   and all invocations
+1. Gear icon on project page -> Permissions -> (New Page)
+1. Google Cloud Platform/IAM & Admin menu -> Gear icon (Settings) -> Shut down
+
+**Note:** As of 2018-05-17 the interface has changed a bit.
+
+**See the "Final Cleanup" section below for current info on deleting projects.**
 
 ### Founding Fathers Facts
 
@@ -77,4 +83,42 @@ Follow this process (as of 2018-05-07):
 
 - founding_fathers_trivia - https://youtu.be/81rzIDTGAjc
 - quick_personality_quiz - https://www.youtube.com/watch?v=vVE4BRQ9_zk
+
+## Final Cleanup - Deleted These Projects on 2018-05-17:
+
+Moving on to try the tutorial examples at Google code labs.  For details, see the directory ../02-google_code_lab .
+
+### Tom's Silly Name - NOT mentioned above
+
+- Project ID: bafyc-tom-s-silly-name
+- Project number: 764283451047
+- No invocations
+- Gear icon -> Project Settings: Changed name to "OLD Tom's Silly Name DELETED"
+- Gear icon -> Project Settings: This now has a DELETE PROJECT button ...
+  - ... but it doesn't work, get the following error:
+  - "This project cannot be deleted because it is connected to a Dialogflow agent. Please delete the agent in Dialogflow first."
+  - This is probably due to the fact that I did not use templates for this one
+  - It is unclear how to delete the agent ...
+- Gear icon -> Permissions -> New page, showing the top option, "IAM"
+  - IAM - probably Identity and Access Management
+  - List shows a "Dialogflow API Client" - not an "agent," but possibly what they are talking about - with a trash can icon
+  - Other options: Service accounts - has an option to delete the Dialogflow Integrations
+- Trying Gear icon -> Permissions -> Top option on new page: "IAM"
+  - Deleting the entry for which Role = "Dialogflow API Client"
+- Back to actions on google -> Gear icon -> Project settings -> DELETE PROJECT button ...
+  - ... still get the same error:
+  - "This project cannot be deleted because it is connected to a Dialogflow agent. Please delete the agent in Dialogflow first."
+- Trying Gear icon -> Permissions -> Settings option -> SHUT DOWN (top of page)
+  - This is what we did before
+  - Now get this in a popup: "Project Service The project has a lien against it.  Tracking number: 2412696064732306085"
+  - Looking at solution here: https://stackoverflow.com/questions/47337549/google-cloud-platform-not-allowing-project-shut-down-due-to-lien?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+  - Log into console.dialogflow.com - Log on using google account (tomwhartung@gmail.com)
+  - Settings
+
+
+
+### Tom's Trivia - mentioned above
+
+- No invocations
+- Gear icon -> Project Settings: Changed name to
 
