@@ -6,17 +6,7 @@ This repo is for learning how to program the Google Assistant.
 
 This subdirectory contains a README.md file, notes, etc. about what I did for the GDG Denver Virtual Hackathon.
 
-## Google Code Labs
+## `02-google_code_lab`
 
-First learned about Google code labs from this video:
-
-- https://www.youtube.com/watch?v=0kKK4Wzx820
-
-Cloned the repo for the google assistant code labs at:
-
-- https://github.com/actions-on-google/codelabs-nodejs
-
-into directory
-
-- `/var/www/always_learning/google_assistant_codelabs/codelabs-nodejs`
+This subdirectory contains a README.md file, and maybe more, reflecting things learned from the Google Code Labs for the Google Assistant.
 
