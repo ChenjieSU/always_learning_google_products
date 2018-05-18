@@ -92,6 +92,28 @@ For more about the simulator, see https://developers.google.com/actions/tools/si
 - Scroll down to the Fulfillment section in this page -> Enable Fulfillment
 - Turn on the "Enable webhook call for this intent" switch -> Save (at the top)
 
+### 1.6. Implement a webhook
+
+#### 1.6.1. Build your webhook
+
+- Dialogflow Menu -> Fulfillment -> Inline Editor -> Enable
+- Copy and paste code into index.js
+- Click Deploy button
+- Note use of color variable in the code
+- This corresponds to the color variable set up in the Intents menu option
+
+#### 1.6.2. Test the action
+
+- Return to Actions Console window and select the project
+- Click on Simulator and enter "Talk to my test app"
+
+Links to more information:
+
+- More about fulfillment: https://dialogflow.com/docs/how-tos/getting-started-fulfillment
+- More about the simulator: https://developers.google.com/actions/tools/simulator
+- More about actions: https://developers.google.com/actions/
+- Github repos for actions on google: https://github.com/actions-on-google/
+- Dialogflow home page - primary source for docs: https://dialogflow.com/
 
 ## Glossary
 
