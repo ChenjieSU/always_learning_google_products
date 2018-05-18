@@ -4,15 +4,43 @@ This subdirectory contains a README.md file, and maybe more, reflecting things l
 
 ## `02-google_code_lab`
 
+Landing page for Google code labs:
+
+- https://codelabs.developers.google.com/
+
 First learned about Google code labs from this video:
 
 - https://www.youtube.com/watch?v=0kKK4Wzx820
+
+Google assistant online community:
+
+- https://plus.google.com/communities/105684267327487893574
 
 A list of Google Assistant apps is here:
 
 - https://assistant.google.com/explore/
 
 Good to know!
+
+## Steps Taken
+
+### 1.3: Setup
+
+1. Create an Actions project
+  - Actions Console -> Add/import project
+  - "actions-codelab" -> Create Project
+  - No category -> click on "Skip" up in the corner
+  - Build -> Actions -> Add your first Action
+  - Select English -> Click on Update
+  - Custom intent card -> Click on Build -> Opens a Dialogflow Console in a new tab
+
+2. Create a Dialogflow agent
+  - Switch to Dialogflow tab
+  - Changed default time zone
+  - Click Create
+  - Now on Intents page in the Dialogflow window
+
+###
 
 ## Glossary
 
@@ -43,11 +71,7 @@ This section contains paraphrased definitions of key terms.
 - Training phrase (Dialogflow): examples of user input used to train the model and match future inputs
 - Entities (Dialogflow): a category of things, such as colors or dates
 
-### 1.6: Implement a webhook
-
-- (None.)
-
-### 1.7: Next steps
+### 1.6: Implement a webhook and 1.7: Next steps
 
 - (None.)
 
