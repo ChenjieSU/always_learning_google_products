@@ -2,7 +2,7 @@
 
 This subdirectory contains a README.md file, and maybe more, reflecting things learned from the Google Code Labs.
 
-## `02-google_code_lab`
+## Directory `02-google_code_lab`
 
 Landing page for Google code labs:
 
@@ -24,23 +24,54 @@ Good to know!
 
 ## Steps Taken
 
+Requested an increase of 20 projects for my quota.
+Apparently the ones I have deleted still count against it, and I have only 2 left.
+They will let me know 'typically in about 2 business days.'
+
+- Response to my request is here: https://support.google.com/code/contact/project_quota_increase?authuser=0
+- Quota FAQ is here: https://support.google.com/cloud/answer/6330231?authuser=0
+
 ### 1.3: Setup
 
-1. Create an Actions project
-  - Actions Console -> Add/import project
-  - "actions-codelab" -> Create Project
-  - No category -> click on "Skip" up in the corner
-  - Build -> Actions -> Add your first Action
-  - Select English -> Click on Update
-  - Custom intent card -> Click on Build -> Opens a Dialogflow Console in a new tab
+#### 1.3.1. Create an Actions project
 
-2. Create a Dialogflow agent
-  - Switch to Dialogflow tab
-  - Changed default time zone
-  - Click Create
-  - Now on Intents page in the Dialogflow window
+- Actions Console -> Add/import project
+- "actions-codelab" -> Create Project
+- No category -> click on "Skip" up in the corner
+- Build -> Actions -> Add your first Action
+- Select English -> Click on Update
+- Custom intent card -> Click on Build -> Opens a Dialogflow Console in a new tab
 
-###
+#### 1.3.2. Create a Dialogflow agent
+
+- Switch to Dialogflow tab
+- Changed default time zone
+- Click Create
+- Now on Intents page in the Dialogflow window
+
+### 1.4. Starting a conversation
+
+#### 1.4.1. Create a welcome intent
+
+- Click on Default Welcome Intent
+- Scroll down to Responses section and delete all (other?) text responses
+  - (Trash can icon appears only when hovering over the response)
+- Enter new response: "Welcome! What is your favorite color?"
+- Click Save (at the top of the page)
+
+### 1.4.2. Test the welcome intent
+
+Using the simulator for this.
+For more about the simulator, see https://developers.google.com/actions/tools/simulator
+
+- Menu -> Integrations
+- Click on Google Assistant -> Integration Settings (at the bottom)
+- A popup appears -> Test (at the bottom)
+- Another popup appears, leave Auto-preview changes enabled -> Continue
+- Simulator -> "Talk to my test app"
+- It responds with "Welcome! What is your favorite color?"
+- For more information, see the tabs: Display, Request, etc.
+
 
 ## Glossary
 
