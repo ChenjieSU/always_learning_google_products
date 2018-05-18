@@ -72,6 +72,26 @@ For more about the simulator, see https://developers.google.com/actions/tools/si
 - It responds with "Welcome! What is your favorite color?"
 - For more information, see the tabs: Display, Request, etc.
 
+### 1.5. Create conversational responses
+
+#### 1.5.1. Create a Dialogflow intent
+
+- Back to Dialogflow console tab -> Close Google Assistant popup
+- Menu -> Intents -> Create
+- Name: "favorite color" -> Save
+- Click on Add training phrases - add the following expressions:
+  - purple is my favorite
+  - black is my favorite color
+  - i love yellow
+  - Pink
+  - my favorite color is green
+- Action and parameters -> Manage Parameters And Action
+- Check the Required box next to color
+- Click on Define prompts...
+- Enter "What's your favorite color?" and click Close
+- Scroll down to the Fulfillment section in this page -> Enable Fulfillment
+- Turn on the "Enable webhook call for this intent" switch -> Save (at the top)
+
 
 ## Glossary
 
