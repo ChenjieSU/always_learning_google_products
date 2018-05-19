@@ -1,8 +1,8 @@
-# always_learning_google_assistant/02-google_code_lab
+# always_learning_google_assistant/02-build_actions-code_lab-level_1
 
-This subdirectory contains a README.md file, and maybe more, reflecting things learned from the Google Code Labs.
+This subdirectory contains just a README.md file with notes about things learned from the Google Code Labs.
 
-## Directory `02-google_code_lab`
+## Resources
 
 Landing page for Google code labs:
 
@@ -22,7 +22,7 @@ A list of Google Assistant apps is here:
 
 Good to know!
 
-## Steps Taken
+## Directory `02-build_actions-code_lab-level_1`
 
 Requested an increase of 20 projects for my quota.
 Apparently the ones I have deleted still count against it, and I have only 2 left.
@@ -30,6 +30,10 @@ They will let me know 'typically in about 2 business days.'
 
 - Response to my request is here: https://support.google.com/code/contact/project_quota_increase?authuser=0
 - Quota FAQ is here: https://support.google.com/cloud/answer/6330231?authuser=0
+
+**Update on 2018-05-19:** Quota increase approved!
+
+## Steps Taken
 
 ### 1.3: Setup
 
