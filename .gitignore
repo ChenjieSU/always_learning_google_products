@@ -12,3 +12,7 @@ unpack/
 .*~
 *~
 
+#
+# Starting to use npm in the level 2 code lab
+#
+npm-debug.log
