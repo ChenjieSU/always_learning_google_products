@@ -62,6 +62,10 @@ For more information, see `03-build_actions-code_lab-level_2`
 
 - **Speech Synthesis Markup Language (SSML):** markup language giving additional control over how speech is generated
 
+### 2.7: Add follow-up intents: None
 
+### 2.8: Add a custom entity: None
+
+### 2.9: Next steps: None
 
 
