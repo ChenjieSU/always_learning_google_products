@@ -84,7 +84,7 @@ Get the project id from:
 
 - Actions console -> Gear icon -> Project Settings
 
-**Project ID is: actions-codelab-f5fa4 **
+**Project ID is: actions-codelab-f5fa4**
 
 Install dependencies and deploy:
 
@@ -136,5 +136,49 @@ Google uses training phrases, invoking a deep link as appropriate.
 - Discovery -> Implicit Invocations -> Add intent -> "favorite color"
 
 ### 2.4.2: Test your deep link
+
+- Actions console -> Simulator
+- Enter "Talk to my test app about blue"
+
+### 2.4.3: Define a custom fallback intent
+
+This can handle unexpected utterances, such as "Talk to my test app about bananas."
+
+- Dialogflow console -> Intents -> Create Intent button (at top)
+- Name: 'Unrecognized Deep Link'
+  - Note: this name is case-sensitive
+- Under Contexts, Add **input** context: "google_assistant_welcome"
+  - Under Contexts, Add **output** context: Click on the "X" to remove the auto-populated "google_assistant_welcome"
+- Under Training phrases, add "banana", "trumpet", and "booze"
+  - Double-click on "banana", "trumpet" and "booze", and assign them to filter "@sys.any"
+  - In general, we do not want to use "@sys.any", but we are making an exception this time
+- Under Responses, add "Sorry, I am not sure about $any . What's your favorite color?" as a Text response
+- Click Save (at top of page)
+
+### 2.4.4: Test your custom fallback intent
+
+- Actions console -> Simulator -> "Talk to my test app about banana"
+
+### 2.5: Personalize your responses with helper intents
+
+#### 2.5.1 Get user information using permission helper intent
+
+- Dialogflow console -> Intents -> Default Welcome Intent
+- Under Fulfillment (at the bottom) -> Enable webhook call for this intent
+- Save
+
+- Intents -> Create Intent
+- Set Name to: "actions_intent_PERMISSION"
+- Under Fulfillment (at the bottom) -> Enable webhook call for this intent
+- Save
+
+```
+$ cd level2/functions   ## if necessary
+$ vi index.js           ## update as described in the code lab
+```
+
+#### 2.5.2 Customize responses with user information
+
+
 
 
