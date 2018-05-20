@@ -99,3 +99,42 @@ $ sudo firebase deploy --project actions-codelab-f5fa4
 Project Console: https://console.firebase.google.com/project/actions-codelab-f5fa4/overview
 $
 ```
+
+#### 2.3.4: Retrieve the deployment URL
+
+Dialogflow needs the URL of the cloud function.
+
+URL for the firebase console: https://console.firebase.google.com/
+
+- Firebase console -> actions-codelab
+- Develop -> functions
+- Dashboard tab -> Event column -> dialogflowFirebaseFulfillment
+- URL: https://us-central1-actions-codelab-f5fa4.cloudfunctions.net/dialogflowFirebaseFulfillment
+
+#### 2.3.5: Set the deployment URL in Dialogflow
+
+- Dialogflow console -> Fulfillment
+- Webhook: enable
+- Paste the URL from 2.3.4
+- Save (at bottom of page)
+
+#### 2.3.6: Verify your project is correctly set up
+
+- Dialogflow console -> Integrations -> Google Assistant
+- Ensure Auto-preview changes is enabled
+- Actions on Google console -> Simulator
+- Enter "Talk to my test app" then "fuchsia"
+
+### 2.4: Add a deep link to your Action
+
+### 2.4.1: Add intent for deep linking and implicit invocation
+
+Google uses training phrases, invoking a deep link as appropriate.
+
+- Dialogflow console -> Integrations
+- Google assistant -> Integration Settings link (near the bottom of the popup window)
+- Discovery -> Implicit Invocations -> Add intent -> "favorite color"
+
+### 2.4.2: Test your deep link
+
+
