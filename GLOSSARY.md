@@ -54,4 +54,14 @@ For more information, see `03-build_actions-code_lab-level_2`
 - Explicit invocation: users speak the Action name to invoke the app; may specify a deep link (specific task)
 - Implicit invocation: users invoke the app 'based on various signals' and google gives them a choice of Actions
 
+### 2.5: Personalize your responses with helper intents
+
+- Helper intents: can return information that might be requested frequently, e.g., user's name, location, permissions, etc.
+
+### 2.6: Add audio effects with SSML
+
+- Speech Synthesis Markup Language (SSML): markup language giving additional control over how speech is generated
+
+
+
 
