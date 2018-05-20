@@ -210,8 +210,26 @@ $ sudo firebase deploy --project actions-codelab-f5fa4
 Project Console: https://console.firebase.google.com/project/actions-codelab-f5fa4/overview
 ```
 
+Note: tested with two sounds:
 
+- cartoon/clang_and_wobble.ogg - as specified in the given code
+- alarms/alarm_clock.ogg - found in the sound library
 
+### 2.7: Add follow-up intents
 
+Follow-up intents trigger based on the user's response after an intent.
+
+- Dialogflow console -> Intents -> favorite color (hover)
+- Add follow-up intent: twice, once for yes, again for no
+- Intents -> favorite color -> Down arrow -> Ensure they are both descendents of favorite color
+- Intents -> favorite color -> no: "Goodbye, see you next time!" as a Text response
+- Intents -> favorite color -> no: Turn on Set this intent as end of conversation
+- Save
+- Intents -> favorite color -> yes: "Which color, indigo taco, pink unicorn or blue grey coffee?" as a Text response
+- Save
+
+No steps for testing this were given.
+
+### 2.8: Add a custom entity
 
 
