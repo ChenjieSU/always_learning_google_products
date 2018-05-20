@@ -183,7 +183,7 @@ $ vi index.js           ## update as described in the code lab
 ```
 $ cat >> index.js       ## append code as described in the code lab
 $ vi index.js           ## update as described in the code lab
-$ firebase deploy --project actions-codelab-f5fa4
+$ sudo firebase deploy --project actions-codelab-f5fa4
 .......................
 ✔  functions[dialogflowFirebaseFulfillment]: Successful update operation.
 ✔  Deploy complete!
@@ -198,6 +198,17 @@ Project Console: https://console.firebase.google.com/project/actions-codelab-f5f
 - Reviewed all steps and code, tried again, and it still didn't work for me, hmm
 
 ### 2.6: Add audio effects with SSML
+
+#### 2.6.1: Use SSML to add sound effects
+
+```
+$ vi index.js           ## update as described in the code lab
+$ sudo firebase deploy --project actions-codelab-f5fa4
+.......................
+✔  functions[dialogflowFirebaseFulfillment]: Successful update operation.
+✔  Deploy complete!
+Project Console: https://console.firebase.google.com/project/actions-codelab-f5fa4/overview
+```
 
 
 
