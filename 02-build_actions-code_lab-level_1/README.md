@@ -2,30 +2,10 @@
 
 This subdirectory contains just a README.md file with notes about things learned from the Google Code Labs.
 
-## Resources
+## Glossary and Resources
 
-Landing page for Google code labs:
-
-- https://codelabs.developers.google.com/
-
-First learned about Google code labs from this video:
-
-- https://www.youtube.com/watch?v=0kKK4Wzx820
-
-Google assistant online community:
-
-- https://plus.google.com/communities/105684267327487893574
-
-A list of Google Assistant apps is here:
-
-- https://assistant.google.com/explore/
-
-Reference information about SSML and URL for google's Sound Library:
-
-- https://developers.google.com/actions/reference/ssml
-- https://developers.google.com/actions/tools/sound-library/
-
-Good to know!
+- For a glossary of terms, see ../GLOSSARY.md
+- For links to resources with more information, see ../FOR_MORE_INFORMATION.md
 
 ## Directory `02-build_actions-code_lab-level_1`
 
