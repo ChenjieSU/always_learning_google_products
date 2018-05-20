@@ -37,3 +37,21 @@ For more information, see `02-build_actions-code_lab-level_1`
 
 ### 1.7: Next steps: None
 
+## 2. From the Build Actions for the Google Assistant (Level 2) Code Lab
+
+For more information, see `03-build_actions-code_lab-level_2`
+
+### 2.1: Overview: None
+
+### 2.2. Install the Firebase command-line interface: None
+
+### 2.3. Set up for local development
+
+- Cloud Functions for Firebase: develop actions locally, use Firebase CLI to run them in a managed environment
+
+### 2.4. Add a deep link to your Action
+
+- Explicit invocation: users speak the Action name to invoke the app; may specify a deep link (specific task)
+- Implicit invocation: users invoke the app 'based on various signals' and google gives them a choice of Actions
+
+
