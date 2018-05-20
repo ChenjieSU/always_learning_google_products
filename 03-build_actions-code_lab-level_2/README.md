@@ -2,10 +2,10 @@
 
 This subdirectory contains a README.md file, and maybe more, reflecting things learned from the Google Code Labs.
 
-## Resources and Glossary
+## Glossary and Resources
 
-- For resources, see `../build_actions-code_lab-level_1/README.md`
 - For a glossary, see `../GLOSSARY.md`
+- For resources, see `../FOR_MORE_INFORMATION.md`
 
 Good to know!
 
