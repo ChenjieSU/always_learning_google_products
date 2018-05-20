@@ -212,8 +212,8 @@ Project Console: https://console.firebase.google.com/project/actions-codelab-f5f
 
 Note: tested with two sounds:
 
-- cartoon/clang_and_wobble.ogg - as specified in the given code
-- alarms/alarm_clock.ogg - found in the sound library
+- `cartoon/clang_and_wobble.ogg` - as specified in the given code
+- `alarms/alarm_clock.ogg` - found in the sound library
 
 ### 2.7: Add follow-up intents
 
@@ -228,8 +228,37 @@ Follow-up intents trigger based on the user's response after an intent.
 - Intents -> favorite color -> yes: "Which color, indigo taco, pink unicorn or blue grey coffee?" as a Text response
 - Save
 
-No steps for testing this were given.
+Note: No steps for testing this were given.
 
 ### 2.8: Add a custom entity
+
+#### 2.8.1: Add a custom entity
+
+- Dialogflow console -> Entities -> Create entity
+- Name: fakeColor
+- Add synonyms
+- Save
+
+- Dialogflow console -> Intents -> Create intent
+- Name: favorite fake color
+- Add training phrases
+- Under Fulfillment, enable the webhook
+- Save
+
+```
+$ vi index.js           ## update as described in the code lab
+$ sudo firebase deploy --project actions-codelab-f5fa4
+.......................
+✔  functions[dialogflowFirebaseFulfillment]: Successful update operation.
+✔  Deploy complete!
+Project Console: https://console.firebase.google.com/project/actions-codelab-f5fa4/overview
+```
+
+#### 2.8.2: Test your code
+
+- It works, interesting!
+
+
+
 
 
