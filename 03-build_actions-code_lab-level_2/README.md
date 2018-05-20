@@ -12,6 +12,8 @@ Good to know!
 
 ### 2.2: Install the Firebase command-line interface
 
+#### 2.2.1: Upgrade Npm and Node
+
 Need to upgrade my installations of npm and node:
 **Note:** Node.js includes npm, but after installing or upgrading node will probably have to upgrade npm.
 
@@ -48,4 +50,52 @@ References:
 - https://stackoverflow.com/questions/10075990/upgrading-node-js-to-latest-version
 - https://stackoverflow.com/questions/6237295/how-can-i-update-node-js-and-npm-to-the-next-versions
 
+#### 2.2.2: Install Firebase CLI Tools
 
+```
+$ sudo npm -g install firebase-tools
+.......................
+$ firebase --version
+3.18.4
+$ firebase login
+.......................
+✔  Success! Logged in as tomwhartung@gmail.com
+$
+```
+
+### 2.3. Set up for Local Development
+
+#### 2.3.1: Download your base files (clone repo)
+
+```
+$ git clone https://github.com/actions-on-google/codelabs-nodejs
+.......................
+$ cd codelabs-nodejs/
+$ mv ./level1-complete ./level2      ## For clarity
+```
+
+#### 2.3.2: Set up your project and agent (disable inline editor)
+
+- Dialogflow console -> Fulfillment -> Inline Editor -> Disabled
+
+#### 2.3.3: Deploy the fulfillment
+
+Get the project id from:
+
+- Actions console -> Gear icon -> Project Settings
+
+**Project ID is: actions-codelab-f5fa4 **
+
+Install dependencies and deploy:
+
+```
+$ cd 03-build_actions-code_lab-level_2/codelabs-nodejs
+$ cd level2/functions/
+$ sudo npm install
+.......................
+$ sudo firebase deploy --project actions-codelab-f5fa4
+.......................
+✔  Deploy complete!
+Project Console: https://console.firebase.google.com/project/actions-codelab-f5fa4/overview
+$
+```
