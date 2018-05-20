@@ -13,6 +13,10 @@ unpack/
 *~
 
 #
-# Starting to use npm in the level 2 code lab
+# Level 2 code lab: starting to use npm
 #
 npm-debug.log
+#
+# Level 2 code lab: cloned repo for the base files
+#
+codelabs-nodejs
