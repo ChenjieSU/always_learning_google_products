@@ -20,9 +20,10 @@ A list of Google Assistant apps is here:
 
 - https://assistant.google.com/explore/
 
-Reference information about SSML:
+Reference information about SSML and URL for google's Sound Library:
 
 - https://developers.google.com/actions/reference/ssml
+- https://developers.google.com/actions/tools/sound-library/
 
 Good to know!
 
