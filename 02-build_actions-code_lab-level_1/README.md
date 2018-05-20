@@ -20,6 +20,10 @@ A list of Google Assistant apps is here:
 
 - https://assistant.google.com/explore/
 
+Reference information about SSML:
+
+- https://developers.google.com/actions/reference/ssml
+
 Good to know!
 
 ## Directory `02-build_actions-code_lab-level_1`
