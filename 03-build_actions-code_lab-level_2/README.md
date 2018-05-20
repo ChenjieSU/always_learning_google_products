@@ -4,7 +4,8 @@ This subdirectory contains a README.md file, and maybe more, reflecting things l
 
 ## Resources and Glossary
 
-See `../build_actions-code_lab-level_1/README.md`
+- For resources, see `../build_actions-code_lab-level_1/README.md`
+- For a glossary, see `../GLOSSARY.md`
 
 Good to know!
 
@@ -84,7 +85,7 @@ Get the project id from:
 
 - Actions console -> Gear icon -> Project Settings
 
-**Project ID is: actions-codelab-f5fa4**
+**Project ID** is: `actions-codelab-f5fa4`
 
 Install dependencies and deploy:
 
@@ -178,6 +179,27 @@ $ vi index.js           ## update as described in the code lab
 ```
 
 #### 2.5.2 Customize responses with user information
+
+```
+$ cat >> index.js       ## append code as described in the code lab
+$ vi index.js           ## update as described in the code lab
+$ firebase deploy --project actions-codelab-f5fa4
+.......................
+✔  functions[dialogflowFirebaseFulfillment]: Successful update operation.
+✔  Deploy complete!
+Project Console: https://console.firebase.google.com/project/actions-codelab-f5fa4/overview
+```
+
+#### 2.5.3 Test your code
+
+- Actions console -> Simulator
+- Type "Talk to my test app"
+- This didn't work for me, rats
+- Reviewed all steps and code, tried again, and it still didn't work for me, hmm
+
+### 2.6: Add audio effects with SSML
+
+
 
 
 
