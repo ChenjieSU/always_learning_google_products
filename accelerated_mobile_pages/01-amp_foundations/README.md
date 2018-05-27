@@ -1,5 +1,9 @@
 # always_learning_google_products/accelerated_mobile_pages/01-amp_foundations/README.md
 
+Notes taken and other information gleaned from running the Google Accelerated Mobile Pages Foundations Code Lab.
+
+- https://codelabs.developers.google.com/codelabs/accelerated-mobile-pages-foundations/index.html
+
 # References
 
 - AMP Validation: https://www.ampproject.org/docs/fundamentals/validate
