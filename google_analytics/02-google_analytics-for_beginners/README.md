@@ -1,4 +1,4 @@
-# 03-google_analytics-for_beginners
+# always_learning_google_products/google_analytics/02-google_analytics-for_beginners
 
 Notes for the Digital Analytics for Beginners class at the Analytics Academy.
 
