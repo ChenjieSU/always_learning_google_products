@@ -1,4 +1,4 @@
-# always_learning_google_products/assistant/README.md
+# always_learning_google_products/google_assistant/README.md
 
 This repo is for learning how to program the Google Assistant.
 
