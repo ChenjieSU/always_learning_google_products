@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Performance Analytics Demo</title>
+
+  <!-- Start navigation timing feature detect -->
+  <script>window.__perf = window.performance && performance.mark;</script>
+  <!-- End navigation timing feature detect -->
+
+  <!-- Start fonts -->
+  <script>
+  window.WebFontConfig = {
+    google: {families: ['Roboto:400,700,400italic']},
+    timeout: 10000,
+    active: function() {
+      __perf && performance.mark('fonts:active');
+    }
+  };
+  </script>
+  <script async src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+  <!-- End fonts -->
+
+  <!-- Start CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { font-family: Roboto, sans-serif; margin: 1em; }
+    img { float: left; height: auto; width: 33.33%; }
+    .gallery { overflow: hidden; }
+  </style>
+  <script>__perf && performance.mark('css:unblock');</script>
+  <!-- End CSS -->
+
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Start images -->
+    <div class="gallery">
+      <img onload="__perf && performance.mark('img:visible')" src="http://lorempixel.com/380/200/animals/1/">
+      <img onload="__perf && performance.mark('img:visible')" src="http://lorempixel.com/380/200/animals/2/">
+      <img onload="__perf && performance.mark('img:visible')" src="http://lorempixel.com/380/200/animals/3/">
+    </div>
+    <script>__perf && performance.mark('img:visible')</script>
+    <!-- End images -->
+
+    <h1>Performance Analytics Demo</h1>
+    <p>Real performance data from real users.</p>
+
+  </div>
+
+  <!-- Start JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script>__perf && performance.mark('js:execute');</script>
+  <!-- End JavaScript -->
+
+  <!-- Start analytics tracking snippet -->
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-87860502-4', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src="https://www.google-analytics.com/analytics_debug.js"></script>
+  <!-- End analytics tracking snippet -->
+
+  <!-- Start performance analytics -->
+  <script async src="perf-analytics.js"></script>
+  <!-- End performance analytics -->
+
+</body>
+</html>
