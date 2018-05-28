@@ -1,4 +1,4 @@
-# 03-google_analytics-for_beginners/part_1.md
+# google_analytics/02-google_analytics-for_beginners/part_1.md
 
 Notes for Part 1 of the Digital Analytics for Beginners class at the Analytics Academy.
 
