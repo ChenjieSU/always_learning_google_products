@@ -137,9 +137,48 @@ Data Import
 
 ## 1.4 Storing data and generating reports
 
+Studying the transcript rather than watching the video.
+
 ### 1.4.1 Video: Storing data to generate reports quickly (5:44)
 
+- Process:
+  - Data gathered, configuration settings applied
+  - Data transformed into dimensions
+  - Metrics are associated with these dimensions
+  - Each dimension is stored in its own database table
+- Reports: all based on a single dimension and its corresponding metrics
+  - Most reports use rows for dimensions and columns for the associated metric data
+- Goals and Enhanced Ecommerce: have their own metrics
+- Metrics: calculated using either:
+  - Aggregate values: e.g., total sessions, total users, pageviews
+  - Specific dimensions: e.g., sessions or new users per country
+- Calculating key metrics:
+  - Time on page: [timestamp of next page load] - [timestamp of hit for current page]
+  - Pages per session: average of unique pageview hits
+  - Average session duration: average length of time between first hit and either last hit or session timeout
+  - Bounce rate: users who have only one interaction (page view)
+- Scope of dimensions and metrics - determined during processing:
+  - hit-level
+  - session-level
+  - user-level
+- For pairing, dimensions must be in the same scope
+- Must define scope (in a pull-down) for custom dimensions and metrics
+- Data is combined into aggregate data tables and processed daily
+- This enables quick display of standard reports
+- Use of secondary dimensions and custom reports can cause Analytics to:
+  - Check for the required aggregate table
+  - Possibly fall back to processing raw data and creating the report from scratch
+  - Analytics may have to process only a sample rather than all data
+- Sampling depends on type of user:
+  - Standard Analytics users: sampling occurs at property level (before view-level filters are applied)
+  - Analytics 360 customers: sampling occurs at view level so view-level filters don't affect the sample size
+- Once data has been filtered, values lost cannot be recovered
+- The Google Analytics Core Reporting API can also access Analytics Data
+  - Allows importing data into third-party reporting tools
+
 ## 1.5 Creating a measurement plan
+
+It's official: studying the transcript is easier than watching the video.
 
 ### 1.5.1 Video: How to create a measurement plan (3:00)
 
