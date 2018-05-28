@@ -72,14 +72,68 @@ Defining sessions
   1. Pageview hit -> distracted for 30+ mins -> watches video: two separate sessions, one hit each (in same browser tab)
 - 30 minutes is the default, and can be changed
   - How to change the default: https://support.google.com/analytics/answer/2795871?hl=en
+- Organizing data by session allows calculating session-based metrics, such as:
+  - Number of sessions, pages per session, average session duration, and bounce rate
 
 Joining Google Analytics data with other sources
 
--
+- Measurement protocol: send data from a web-connected device, e.g., POS system, kiosks
+  - To collect non-Google data, must manually add it to the URL string
+  - Measurement protocol details: see Analytics Developer documentation
+- Analytics can link to data from AdWords, AdSense, and Google Search Console
+  - Allows collecting clicks, impressions, cost data
 
 ## 1.3 Applying configuration settings
 
+It seems a bit easier to study the transcript than to watch the video.
+
 ### 1.3.1 Video: Transforming data using configuration rules (5:12)
+
+- Setting up data configuration rules allows control over how data is processed
+- Allows filtering and grouping data, setting goals, creating custom dimensions and metrics, and importing data
+
+Data Filters
+
+- Ways to filter a view:
+  - Exclude specific data
+  - Include specific data
+  - Modify data
+- Enables aligning data with business needs
+- Filters are **rules** applied to data during processing
+  - if "filter type" is true, filter is applied, else it is not
+- Reasons to apply filters:
+  - To transform data: e.g., include data only froma specific country, or exclude internal traffic
+  - To help meet specific measurement objectives
+
+Goals
+
+- Types of goals:
+  - Destination or Pageview goals: user views a specific page
+  - Event goals: user performs an action defined as an event
+  - Duration goals: based on session length
+  - "Pages or Screens per Session" goals: user views a set number of pages in a session
+- User can meet multiple goals per session, but they count as only one conversion
+- Conversions and transactions are credited to the last campaign, search, or ad
+
+Channel and Content Groupings
+
+- Channel groupings: organize data into custom channels
+- Content groupings: aggregate metrics in reports based on site organization
+
+Custom Dimensions and Metrics
+
+- Can create custom dimensions and metrics
+- Custom dimensions: (discussed later)
+  - Can be used as secondary dimensions in reports
+  - Can be used as primary dimensions in custom reports
+- Custom metrics: can be collected for a standard or custom dimension
+- Data import: upload data from external sources, e.g., text file from offline CMS or CRM system
+
+Data Import
+
+- Combine offline data with hit data
+- Add context and insight by including business-specific data collected independently
+- Must set up configuration rules before gathering data (they cannot be applied retroactively)
 
 ## 1.4 Storing data and generating reports
 
