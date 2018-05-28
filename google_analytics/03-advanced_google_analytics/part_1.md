@@ -16,6 +16,7 @@ Website data collection:
 
 - Tracking code: tracks each user interaction on the site: page loads, button clicks, etc.
 - Analytics tracks this by dropping a cookie in user's browser for the site
+  - Browsers store cookies independently for each site
 - Note: using the same tracking code on different sites causes Analytics to count the sessions separately
   - Cross-domain tracking: tracking users on multiple sites - covered later
 
@@ -28,6 +29,9 @@ Anatomy of a "hit:"
   - Resolution of user's screen
   - Analytics ID from the tag
   - Randomly-generated user identifier, allows identifying new and returning users
+    - If this user identifier already exists in the cookies for the site, then they are a returning user
+    - Else, if no cookie was stored there, then they are a new user
+
 - Most common hit types are:
   - "pageview" - user loads page with tracking code
   - "event" - user interacts with a particular element, e.g., a button
@@ -49,20 +53,20 @@ Starting to think it's easier to study the transcript than watch the video, and 
 ### 1.2.1 Video: Categorizing data into users and sessions (6:06)
 
 - How Google Analytics processes data:
-  - Determines whether user is new or returning
-  - Categorizes hits into sessions
-  - Combines data from the tracking code with other data
+  1. Determines whether user is new or returning
+  1. Categorizes hits into sessions
+  1. Combines data from the tracking code with other data
 
-New vs. Returning Users
+**Step 1:** New vs. Returning Users
 
 - User loads page -> Google generates random ID for user's cookie
-  - If there is an existing ID, user is returning, else they are new
-  - This is not explained very well...
+  - Browsers store different cookies for different sites
+  - If there is already a cookie containing an ID for the site, the user is returning, else they are new
 - Limitations:
   - Technique can be thwarted if user disallows or clears cookies
   - Different devices are interpreted as different users, unless User ID feature is turned on (covered later)
 
-Defining sessions
+**Step 2:** Defining sessions
 
 - Sessions begin when users first visit the site
 - Sessions end after 30 minutes pass without any hits
@@ -75,8 +79,9 @@ Defining sessions
 - Organizing data by session allows calculating session-based metrics, such as:
   - Number of sessions, pages per session, average session duration, and bounce rate
 
-Joining Google Analytics data with other sources
+**Step 3:** Other sources
 
+- Joining Google Analytics data with other sources
 - Measurement protocol: send data from a web-connected device, e.g., POS system, kiosks
   - To collect non-Google data, must manually add it to the URL string
   - Measurement protocol details: see Analytics Developer documentation
@@ -89,6 +94,8 @@ It seems a bit easier to study the transcript than to watch the video.
 
 ### 1.3.1 Video: Transforming data using configuration rules (5:12)
 
+**Step 4:** Apply configuration rules
+
 - Setting up data configuration rules allows control over how data is processed
 - Allows filtering and grouping data, setting goals, creating custom dimensions and metrics, and importing data
 
@@ -97,7 +104,7 @@ Data Filters
 - Ways to filter a view:
   - Exclude specific data
   - Include specific data
-  - Modify data
+  - Modify data (search and replace)
 - Enables aligning data with business needs
 - Filters are **rules** applied to data during processing
   - if "filter type" is true, filter is applied, else it is not
@@ -108,10 +115,12 @@ Data Filters
 Goals
 
 - Types of goals:
-  - Destination or Pageview goals: user views a specific page
-  - Event goals: user performs an action defined as an event
-  - Duration goals: based on session length
-  - "Pages or Screens per Session" goals: user views a set number of pages in a session
+  - Most common:
+    - Destination or Pageview goals: user views a specific page
+    - Event goals: user performs an action defined as an event
+  - Not as common:
+    - Duration goals: based on session length
+    - "Pages or Screens per Session" goals: user views a set number of pages in a session
 - User can meet multiple goals per session, but they count as only one conversion
 - Conversions and transactions are credited to the last campaign, search, or ad
 
@@ -124,8 +133,9 @@ Custom Dimensions and Metrics
 
 - Can create custom dimensions and metrics
 - Custom dimensions: (discussed later)
-  - Can be used as secondary dimensions in reports
+  - Can be used as secondary dimensions in standard reports
   - Can be used as primary dimensions in custom reports
+  - Can be used as a segment
 - Custom metrics: can be collected for a standard or custom dimension
 - Data import: upload data from external sources, e.g., text file from offline CMS or CRM system
 
@@ -142,10 +152,10 @@ Studying the transcript rather than watching the video.
 ### 1.4.1 Video: Storing data to generate reports quickly (5:44)
 
 - Process:
-  - Data gathered, configuration settings applied
-  - Data transformed into dimensions
-  - Metrics are associated with these dimensions
-  - Each dimension is stored in its own database table
+  1. Data gathered, configuration settings applied
+  1. Data transformed into dimensions
+  1. Metrics are associated with these dimensions
+  1. Each dimension is stored in its own aggregate database table
 - Reports: all based on a single dimension and its corresponding metrics
   - Most reports use rows for dimensions and columns for the associated metric data
 - Goals and Enhanced Ecommerce: have their own metrics
@@ -204,8 +214,37 @@ It's official: studying the transcript is easier than watching the video.
 - Measurement plan: aligns business objectives with Analytics configuration settings
 - Must create a measurement plan to know how to set up and configure Analytics
 
+Business Objective
+- Strategy 1
+  - Tactic 1
+    - KPI (conversions)
+  - Tactic 2
+    - KPI (conversions)
+- Strategy 2
+  - Tactic 1
+    - KPI (conversions)
+  - Tactic 2
+    - KPI (conversions)
+
 ### 1.5.2 Interactive Google Merchandise Store Measurement Plan
 
+Business Objective: Sell Google Merchandise
+- Strategy: Advertising plan making it easier for customers to make purchases
+  - Tactic: Increase referrals to Android merchandise pages
+    - KPI: Increase referrals - and resulting increase in customer awareness
+    - KPI: Increase new users - and resulting increase in customer awareness
+    - KPI: Increase pageviews - and resulting increase in customer awareness
+  - Tactic: Increase revenue from Android merchandise products
+    - KPI: Increase conversion rate - and resulting increase in revenue
+    - KPI: Increase total transactions - and resulting increase in revenue
+    - KPI: Increase total revenue - and resulting increase in revenue
 
-## 1.6 Assessment 1:
+Not yet covered?
+- Segments (Dimensions) - use the following:
+  - Customer Demographics - understand who is visiting pages selling Android merchandise
+  - Traffic Sources - understand where the visitors are coming from
+  - Device Type - optimize which devices store should optimize for
+  - User Category - distinguish purchases by employees from purchases by external customers
+
+## 1.6 Assessment 1: 15/15 - 100%
 
