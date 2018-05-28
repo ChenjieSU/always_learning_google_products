@@ -6,11 +6,49 @@ Notes for Part 2 of the Advanced Google Analytics class at the Analytics Academy
 
 ## 2.1 Organize your Analytics account
 
-Continuing to study the transcript than the video.
+Continuing to first study the transcript, then watch the video.
 
 ### 2.1.1 Video: Managing multiple accounts or properties (5:26)
 
+- Simplest set up: a single organization, account, and property
+  - Create three views for each property: Raw, Test, and Master
 
+Accounts
+
+- These are Google Analytics Accounts, NOT email accounts
+  - To create a GA account: Analytics -> Admin
+- Each GA account has a unique Account ID, contained in the tracking code
+- An agency managing accounts for multiple companies:
+  - Set up an Organization for each company
+  - Create a separate GA account under each Organization
+- To switch accounts:
+  - Use the account selector (top left of the analytics page) OR
+  - Access the Admin page
+
+Properties
+
+- Each account may contain multiple properties
+- Each property is identified by a unique Propert ID, appended to the Account ID
+- Access properties in the Admin window -> Property selection pull-down (middle of page near the top)
+- Set up a property to organize a data set independently
+  - Recommended: use different properties for website, a mobile app, or other device
+- Cross-domain tracking: aka. "site linking"
+  - Recognizes when a user navigates between related sites or subdomains in a single session
+  - Enables tracking both in a single property
+  - Must modify tags - this is easier when using Google Tag Manager
+  - Google Analytics 360: can use "rollup reporting" to aggregate data into a new combined property
+    - Example: combine website and mobile app data (in separate properties) into a third combined property
+    - Note: the combined property does not inherit imported data, must set that up manually
+
+User permissions
+
+- Limitations:
+  - Each GA account has a limited number of properties
+  - Each property has a limited number of views
+- Example: Can create a different view for each department
+- Use the Admin page -> View pulldown to navigate between views
+- Google Merchandise Store: medium-sized business
+  - Single account, single property, three views
 
 ## 2.2 Set up advanced filters on views
 
