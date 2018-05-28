@@ -56,11 +56,40 @@ Studying the transcript instead of watching the video.
 
 ### 2.2.1 Video: How to set up advanced filters on views (6:38)
 
+- Filters: refine data
+  - Example: track a specific subdomain or directory in separate views
+- Two types: predefined and custom
 
+Predefined Filters
 
-### 2.2.2 Complete the activity
+- Predefined: simply need to select the ones you want to use
+- Examples: Filter by ISP domain, IP addresses, subdirectories, hostname
 
+Custom Filters
 
+- Custom: include or exclude hits, format case of data, search and replace
+- Include filters:
+  - Example - to see mobile data separately: include-only for Device Category "mobile"
+  - Example - to see data for a specific campaign: include-only data with the campaign name or type
+- Exclude filters:
+  - Example - exclude paid search (CPC) traffic
+- Lowercase and Uppercase filters:
+  - Allows normalizing data, such as URLs
+  - Uppercase or lowercase filters: force values and combine rows that differ only by case
+- Advanced filters:
+  - Use regexes to remove, replace, or combine fields
+  - Example: normalize search queries
+  - Example: same page but url has different query parameters -> filter out query parameters
+  - Example: different domain names but same page url (e.g., index.axd)
+    - Use regex to add hostname
+- Important factors:
+  - Filters apply only after they are created (not retroactively)
+  - It may take up to 24 hours for filters to apply
+  - Sequence is important:
+    - To adjust: Admin -> Filters (in View column, to the right) -> Assign Filter Order (NOT seeing this in demo acct)
+  - Can share filters between views
+    - Note: Changing a filter in one view changes it in all views
+- Use the Test view to test a filter before using it in the master view
 
 ## 2.3 Create your own Custom Dimensions
 
