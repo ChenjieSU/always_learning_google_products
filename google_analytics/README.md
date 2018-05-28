@@ -8,6 +8,10 @@ and courses in the Analytics Academy.
 - Google code labs home page: https://codelabs.developers.google.com/
 - Analytics Academy home page: https://analytics.google.com/analytics/academy/
 
+# TODOs
+
+For a list of TODOs, see `TODO.md` in this directory.
+
 # Index
 
 - The `01-performance_metrics-google_analytics` directory contains code and notes for the codelab here:
