@@ -182,6 +182,30 @@ It's official: studying the transcript is easier than watching the video.
 
 ### 1.5.1 Video: How to create a measurement plan (3:00)
 
+- Must define business objectives and how to measure them
+  - This determines what data needs to be collected
+- Macro conversions: key actions representing broader goals, e.g., a purchase
+- Micro conversions: smaller goals supporting the key objectives, e.g., signing up for email
+  - Micro conversions nudge users closer to a macro conversion
+- Micro and macro conversion examples:
+  - E-commerce - micro: newsletter subscription, macro: purchase
+  - Lead generation - micro: follow on social media, macro: fill out contact form
+  - Content publishing - micro: click into an article, marco: reading a certain number of articles
+  - Online information and support - micro: rate an article, macro: completing a flow and solving an issue
+- Put all micro and macro conversion into a measurement plan
+  - Measurement plan: aligns business objectives with Analytics configuration settings
+  - Business objectives
+  - Strategies for attaining objectives
+  - Tactics to support the strategies
+  - Each tactic has one or more key performance indicators (KPIs) for measuring micro and macro conversions
+- Macro conversions: often measure tactics
+- Micro conversions: metrics used to understand user behavior
+- Must identify these conversions before creating a measurement plan
+- Measurement plan: aligns business objectives with Analytics configuration settings
+- Must create a measurement plan to know how to set up and configure Analytics
+
+### 1.5.2 Interactive Google Merchandise Store Measurement Plan
+
 
 ## 1.6 Assessment 1:
 
