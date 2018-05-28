@@ -1,4 +1,4 @@
-# always_learning_google_products/google_analytics/02-google_analytics-for_beginners
+# always_learning_google_products/google_analytics/02-google_analytics-for_beginners/README.md
 
 Notes for the Digital Analytics for Beginners class at the Analytics Academy.
 
@@ -16,11 +16,7 @@ Notes for the Digital Analytics for Beginners class at the Analytics Academy.
 
 # The Notes
 
-For the notes for each part, see the individual `part_.md` files in this directory.
-
-# TODOs
-
-For a list of TODOs, see `TODO.md` in this directory.
+For the notes for each part, see the individual `part_?.md` files in this directory.
 
 # Assessment Summary
 
@@ -30,6 +26,8 @@ For a list of TODOs, see `TODO.md` in this directory.
 
 ## Assessment 3: 10/10 - 100%
 
+- It took 2 tries to get Question 4 correct.
+- It took 2 tries to get Question 7 correct.
 - It took 12 tries to get Question 5 correct.
 
 ## Assessment 4: 10/10 - 100%
