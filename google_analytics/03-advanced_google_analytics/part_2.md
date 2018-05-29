@@ -202,32 +202,61 @@ Will watch the video when reviewing the material later.
 
 ## 2.6 More useful configurations
 
-No video for this section.
+### 2.6.1 Explore additional configuration settings (optional)
 
-Instead: "Select from the pulldown menu below to learn about more settings that may interest you:"
+Clicking on entries in the pulldown menu to learn about more settings that may interest you:
 
-### 2.6.1 Demographics and Interests reports
+#### 2.6.1.1 Demographics and Interests reports
 
+- Turn this on in Admin -> Property -> Property Settings -> [scroll down] Enable Demographics and Interest Reports
+- Click through the guide (no video for this sub section)
 
-### 2.6.2 Internal Site Search
+#### 2.6.1.2 Internal Site Search
 
+- Learn what users are looking for
+- How to set up Internal Site Search
+  - Video transcript: https://support.google.com/analytics/answer/7165643?hl=en
 
-### 2.6.3 Calculated Metrics
+#### 2.6.1.3 Calculated Metrics
 
+- Perform simple arithmetic on metrics
+- How to set up Calculated Metrics
+  - Video transcript: https://support.google.com/analytics/answer/7165565?hl=en
 
-### 2.6.4 Channel Groupings
+#### 2.6.1.4 Channel Groupings
 
+- Customize how Analytics groups channels
+  - Default groups are Organic, Social, Diect, Referral, and Display
+  - Set at the View level under Channel Settings
+- How to set up Channel Groupings
+  - Video transcript: https://support.google.com/analytics/answer/7165162?hl=en
 
-### 2.6.5 Content Grouping
+#### 2.6.1.5 Content Grouping
 
+- Organize reports based on website organization
+  - Examples:  "Accessories," "Fun," "Kids," "Office," and "Apparel."
+- How to set up Content Groupings
+  - Video transcript: https://support.google.com/analytics/answer/7165163?hl=en
 
-### 2.6.6 Enhanced Ecommerce
+#### 2.6.1.6 Enhanced Ecommerce
 
+- Enables reports measuring user interactions in steps in the ecommerce buying process
+- Enhanced Ecommerce
+  - Video transcript: https://support.google.com/analytics/answer/7165568?hl=en
 
-### 2.6.7 User ID
+#### 2.6.1.7 User ID
 
+- Turn on to allow tracking users across multiple devices
+- Requires user be logged in across the devices
+- Requires modifying the js tracking code
+- How to set up User ID
+  - Video transcript: https://support.google.com/analytics/answer/7165164?hl=en
 
-### 2.6.8 Data Import
+#### 2.6.1.8 Data Import
+
+- Upload data from a spreadsheet or csv file
+- How to set up Data Import
+  - Video transcript: https://support.google.com/analytics/answer/7165645?hl=en
 
 
 ## 2.7 Assessment 2:
