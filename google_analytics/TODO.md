@@ -4,7 +4,7 @@ This file lists changes I need to make to my sites in order to bring them up-to-
 
 These changes are based on what I am learning by going through the Analytics Academy's Google Analytics for Beginners class.
 
-# Changes Needed
+# Changes Needed - From the Google Analytics for Beginners Class
 
 ## From Part 1 of the Google Analytics for Beginners Class
 
@@ -31,5 +31,21 @@ These changes are based on what I am learning by going through the Analytics Aca
   - Click Enable and wait a day or two
   - OR: Admin -> Property tab -> Property Settings
   - Turn on "Enable Demographics and Interest Reports" -> Save
+
+# Changes Needed - From the Advanced Google Analytics Class
+
+## From Part 2 of the Advanced Google Analytics Class
+
+### From Part 2, Section 1 (2.1 Managing multiple accounts):
+
+References:
+
+- Link to section: https://support.google.com/analytics/answer/7165242?hl=en
+- Link at end of section: https://support.google.com/analytics/answer/1033876?hl=en
+
+- Set up cross-domain tracking for seeourminds.com and groja.com
+- **Note:** This is easier using Google Tag Manager, so may want to put this off until after that class
+
+
 
 
