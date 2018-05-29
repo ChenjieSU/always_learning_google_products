@@ -163,19 +163,42 @@ Will probably watch the video later, before taking the assessment, to review the
   - How do you want metrics to work with session-level dimensions such as source/medium?
 - Google Tag Manager makes managing the js tags easier
 
-
 ## 2.5 Understand user behavior with Event Tracking
 
 Enjoying studying the transcript instead of watching the video.
+Will watch the video when reviewing the material later.
 
 ### 2.5.1 Video: How to set up event tracking (5:00)
 
+- Use event tracking to learn if and how users are engaging with the site
+- Example: track clicks on the global nav bar
+- Implementation: add js to the elements you want to track
+- Need to set it up for each element individually
+- Parameters to define in the js:
+  - Category: for organizing disparate events - examples: videos, social, etc.
+  - Action: what the user did - examples: play (video), like (post)
+  - Label: optional, for further description - example: name of video, title of post
+  - Value: optional, numerical value - example: time to load video, how much an event is worth
+- These are passed to Analytics with each hit
+- Example: to monitor the "Android" link under "Brands"
+  - Category: Navigation
+  - Action: Brands
+  - Label: Android
+- Total Events: total number of interactions with the element
+- Unique Events: number of unique users who have interacted with the element
+- Event reports: under Behavior
+  - Top events: organized by category by default
+    - Click into Category to see Actions
+    - Click into an Action to see the Labels
+  - Use links just above table to select the "Primary Dimension:" for the report:
+    - Event Category, Event Action, or Event Label
+- Suggestion: monitor elements that take user away from site
+  - Example: chat button monitored and implemented by a third party
+    - Category: Outbound links, Action: Live Chat, Label: Home (or other page title)
+    - Learn which pages give users trouble
+- Suggestion: to increase engagement, monitor navigation actions and how users interact with content
 
-
-### 2.5.2 Complete the activity
-
-
-
+### 2.5.2 Complete the activity: 3/3 - 100%
 
 ## 2.6 More useful configurations
 
