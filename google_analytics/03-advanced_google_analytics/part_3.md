@@ -11,13 +11,29 @@ Continuing to first study the transcript, then watch the video.
 ### 3.1.1 Video: Introduction to segmentation (5:30)
 
 - Segmentation: allows viewing a subset of data in a report
+  - A differently-colored line represents each segment in the graph
 - User segments: can span multiple sessions in a date range (max. 90 days)
   - Can segment by date range demographics: age range, gender
 - Session segments: behavior within a single session
 - Can add multiple segments to a single report
 - Can compare users who purchased to those that didn't
-- Can build segments using dimensions, metrics, dates, and actions
-
+- Can build segments using dimensions, metrics, dates, and sequences of actions
+- Audience Overview and other reports: the default is the All Users segment
+  - Click Add Segment to add a segment - see Click through the guide below
+- Type 1 - Default or System segments:
+  - Examples: Tablet traffic, New Users, Returning Users
+  - Applied to every report until you remove it or exit Google Analytics
+- Can display up to four segments at a time
+- Actions drop-down:
+  - Copy: to copy and edit segment
+  - Build audience: for remarketing (covered later)
+- Type 2 - Custom segments: deined by admins
+  - See the "Click through the guide" below
+  - Can specify multiple filters, example: age 25-34 + language "es"
+  - Can specify sequences - mix of pageviews and events
+- Click on Share segments to import and share segments
+  - Does not share any of the data
+- Segments are applied after sampling
 
 ### 3.1.2 Click through the guide
 
@@ -47,9 +63,7 @@ Audience -> Overview report:
   - In left nav, Geo -> Location
   - Note increase in new users
 
-### 3.1.3 Complete the activity:
-
-
+### 3.1.3 Complete the activity: 3/3 - 100% (first try)
 
 ## 3.2 Analyze data by channel
 
