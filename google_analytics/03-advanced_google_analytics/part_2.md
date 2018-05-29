@@ -107,14 +107,16 @@ Overview
 
 Set up
 
-- To Set up: Admin -> Select Property -> Custom Definitions -> Custom Dimension -> New Custom Dimension
+- Process:
+  - Admin -> Select Property -> Custom Definitions -> Custom Dimension -> New Custom Dimension
   - Name dimension, set scope to hit, product, session, or user
 - Add Custom Dimension
   - Dimensions can only be paired with others when they are in the same scope
   - Active checkbox: active by default, but can un-check to de-activate it at any time
   - First time: given js for the site - copy the js then click Done
-  - Taken to page listing all custom dimensions - each has an ID (slot number)
+  - Taken to overview page listing all custom dimensions - each has an ID (slot number, read-only)
   - Add js tracking code to site - Google Tag Manager can help with this
+  - Custom Metric - parameter of index-value pairs
   - Code uses userStatus js var to determine whether user came from employee-only link vs. entering normal retail site
     - Attaches custom dimension ("dimension1") to pageview hit
     - Sent to google, processed into data for the custom dimension and appropriate reports
@@ -131,12 +133,35 @@ Using Custom Dimensions in your reports
   - Standard Analytics: up to 20 Custom Dimensions
   - Analytics 360: up to 200 Custom Dimensions
 
+### 2.3.2 Complete the activity: 3/3 - 100%
+
 ## 2.4 Create your own Custom Metrics
 
 Studying the transcript instead of watching the video.
+Will probably watch the video later, before taking the assessment, to review the material.
 
 ### 2.4.1 Video: How to set up Custom Metrics (5:36)
 
+- Examples: number of ads loaded on page, bandwidth page used when loaded
+- Collected using js on a page, sent as an additional parameter on the hit
+- Example: want to know which marketing channels are working the best
+- Process:
+  - Admin -> Select Property -> Custom Definitions -> Custom Metrics -> New Metric
+  - Name metric, set scope to hit or product
+    - Hit: causes metric to increment with each pageview
+    - Product: causes metric to increment by cost assigned to product
+  - Format: integer, decimal, or time
+  - Specify minimum or maximum to exclude very small or very large values from reports
+  - Active checkbox: active by default, but can un-check to de-activate it at any time
+  - First time: given js for the site - copy the js then click Done
+  - Taken to overview page listing all custom dimensions - each has an ID (slot number, read-only)
+  - Add js tracking code to website
+  - Custom Metric - parameter of index-value pairs
+  - Hit causes Analytics to increment the value of the metric
+- Concerns:
+  - How do you want metrics to appear in reports?
+  - How do you want metrics to work with session-level dimensions such as source/medium?
+- Google Tag Manager makes managing the js tags easier
 
 
 ## 2.5 Understand user behavior with Event Tracking
