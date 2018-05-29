@@ -22,9 +22,9 @@ These changes are based on what I am learning by going through the Analytics Aca
 - Test the filter
 - Copy it to the Master View
 
-## From Part 3 of the Google Analytics for Beginners Class
+## From Part 1 of the Google Analytics for Beginners Class
 
-### From Part 3, Section 1 (3.1 Audience reports):
+### From Part 1, Section 3 (3.1 Audience reports):
 
 - In Analytics: Enable Demographics and Interest Reports:
   - Click Audience in left nav -> Demographics -> Overview
@@ -44,18 +44,44 @@ References:
 - Link at end of section: https://support.google.com/analytics/answer/1033876?hl=en
 
 - Set up cross-domain tracking for seeourminds.com and groja.com
-- **Note:** This is easier using Google Tag Manager, so may want to put this off until after that class
+
+**Note:** This is easier using Google Tag Manager, so hold off on this until after taking that class.
+
+### From Part 2, Section 5 (2.5 Understand user behavior with Event Tracking):
+
+#### Section 2.5: Event Tracking
+
+References:
+
+- Link to section: https://analytics.google.com/analytics/academy/course/7/unit/2/lesson/5
+
+SeeOurMinds.com: write up a short measurement plan and set up goals and conversions for the following actions:
+
+- Minor conversions:
+  - Click on one of the buttons on the home page
+  - Click on "Show the Whole Story" - gallery page
+  - Click on "Explain the [color]"
+  - Click on "Show the Whole Story" - image page
+- Major conversions:
+  - Sign up for the email list
+
+**Note:** Set up **only** these goals for now.
+This is probably easier to do with Google Tag Manager, so hold off on doing
+more than this until after taking that class.
 
 ### From Part 2, Section 6 (2.6 More useful configurations):
+
+#### Section 2.6: Site Search
 
 - Second drop down on this page is about setting up site search.
   - https://analytics.google.com/analytics/academy/course/7/unit/2/lesson/6
 
-**We will want to do this someday, but skip it for now.**
+**We will want to do this eventually, but not right now.**
 
 References:
 
 - Transcript of video: https://support.google.com/analytics/answer/7165643?hl=en
+
 
 
 
