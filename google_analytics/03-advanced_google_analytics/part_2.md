@@ -86,7 +86,8 @@ Custom Filters
   - Filters apply only after they are created (not retroactively)
   - It may take up to 24 hours for filters to apply
   - Sequence is important:
-    - To adjust: Admin -> Filters (in View column, to the right) -> Assign Filter Order (NOT seeing this in demo acct)
+    - To adjust: Admin -> Filters (in View column, to the right) -> Assign Filter Order
+      - Not seeing this in demo acct, and other accounts do not have any filters
   - Can share filters between views
     - Note: Changing a filter in one view changes it in all views
 - Use the Test view to test a filter before using it in the master view
@@ -97,7 +98,38 @@ Studying the transcript instead of watching the video.
 
 ### 2.3.1 Video: How to set up Custom Dimensions (6:10)
 
+Overview
 
+- Just like default dimensions but you decide the name and value(s)
+- Use js tracking code on page:
+  - Custom dimension captures page view, action, etc. and sends an additional parameter
+- Example: custom dimension in URL to identify employees and apply a discount
+
+Set up
+
+- To Set up: Admin -> Select Property -> Custom Definitions -> Custom Dimension -> New Custom Dimension
+  - Name dimension, set scope to hit, product, session, or user
+- Add Custom Dimension
+  - Dimensions can only be paired with others when they are in the same scope
+  - Active checkbox: active by default, but can un-check to de-activate it at any time
+  - First time: given js for the site - copy the js then click Done
+  - Taken to page listing all custom dimensions - each has an ID (slot number)
+  - Add js tracking code to site - Google Tag Manager can help with this
+  - Code uses userStatus js var to determine whether user came from employee-only link vs. entering normal retail site
+    - Attaches custom dimension ("dimension1") to pageview hit
+    - Sent to google, processed into data for the custom dimension and appropriate reports
+
+Using Custom Dimensions in your reports
+
+- Use Custom Dimensions as:
+  - Secondary dimensions in reports
+  - Primary dimensions in custom reports (discussed later)
+- Example - see which products are most popular:
+  - Ecommerce -> Conversions -> Product Performance -> secondary dimension: User Category
+- Limitations:
+  - Cannot be applied retroactively
+  - Standard Analytics: up to 20 Custom Dimensions
+  - Analytics 360: up to 200 Custom Dimensions
 
 ## 2.4 Create your own Custom Metrics
 
