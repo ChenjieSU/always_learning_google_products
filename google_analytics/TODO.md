@@ -57,12 +57,15 @@ References:
 
 SeeOurMinds.com: write up a short measurement plan and set up goals and conversions for the following actions:
 
-- Minor conversions:
-  - Click on one of the buttons on the home page
-  - Click on "Show the Whole Story" - gallery page
+- Home page, minor conversion:
+  - click on one of the main buttons
+- Gallery page, minor conversions:
+  - Click on "Show the Whole Story"
+  - Click to see an image "up close"
+- Image page, minor conversions:
   - Click on "Explain the [color]"
-  - Click on "Show the Whole Story" - image page
-- Major conversions:
+  - Click on "Show the Whole Story"
+- Major conversion:
   - Sign up for the email list
 
 **Note:** Set up **only** these goals for now.
