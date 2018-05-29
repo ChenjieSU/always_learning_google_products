@@ -255,9 +255,9 @@ Clicking on entries in the pulldown menu to learn about more settings that may i
 #### 2.6.1.8 Data Import
 
 - Upload data from a spreadsheet or csv file
+- A dimension serves as a key to link the datasets
 - How to set up Data Import
   - Video transcript: https://support.google.com/analytics/answer/7165645?hl=en
 
-
-## 2.7 Assessment 2:
+## 2.7 Assessment 2: 12/12 - 100% (Third try)
 
