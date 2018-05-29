@@ -1,4 +1,4 @@
-# always_learning_google_products/google_analytics/03-google_analytics-for_beginners/part_1.md
+# always_learning_google_products/google_analytics/03-advanced_google_analytics/part_1.md
 
 Notes for Part 1 of the Advanced Google Analytics class at the Analytics Academy.
 
