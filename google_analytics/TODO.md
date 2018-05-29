@@ -46,6 +46,17 @@ References:
 - Set up cross-domain tracking for seeourminds.com and groja.com
 - **Note:** This is easier using Google Tag Manager, so may want to put this off until after that class
 
+### From Part 2, Section 6 (2.6 More useful configurations):
+
+- Second drop down on this page is about setting up site search.
+  - https://analytics.google.com/analytics/academy/course/7/unit/2/lesson/6
+
+**We will want to do this someday, but skip it for now.**
+
+References:
+
+- Transcript of video: https://support.google.com/analytics/answer/7165643?hl=en
+
 
 
 
