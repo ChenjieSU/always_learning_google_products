@@ -71,15 +71,31 @@ Studying the transcript instead of watching the video.
 
 ### 3.2.1 Click through the guide
 
-
+- Using the Channels Report for Analysis:
+  - Acquisition -> All Traffic -> Channels
+- Channels report table - shows data segmented by channel: Direct, Display, Email, Organic Search, Social, etc.
+  - Display channel: AdWords or DoubleClick campaigns, served on the Google Display Network
+  - Paid Search channel: Advertising in Google Search
+- Conversions menu drop-down: in heading of the Channels report table - shows goals
+  - Select Goal 1: Purchase Completed
+- Set date range and check the compare to previous period checkbox
+- Apply android segment created in previous lesson
+- Remove All Users segment (down arrow in box -> Remove)
+- Compare conversion columns - Purchase Completed
+- Sort channels by Conversion rate (click on column header)
+- Sort channels by New Users (click on column header)
+- Click into Referral channel and note referral sources - note which ones are performing the best
 
 ### 3.2.2 Video: Using Multi-Channel Funnel reports for analysis (4:24)
 
+- To access Channels report: Acquisition -> All Traffic -> Channels
+  - Data is segmented by Channel
+- And so on ... **Note:** The video contains the same information as the "Click through the guide" section
 
+### 3.2.3 Complete the activity: 3/3 - 100% (first try)
 
-### 3.2.3 Complete the activity:
-
-
+Note: For question 2, Analytics displayed a warning about looking at a filtered view.
+I ignored this warning and was able to choose the correct answer regardless.
 
 ## 3.3 Analyze data by channel
 
