@@ -181,7 +181,12 @@ Using Custom Reports
   - Note: Dimensions and Metrics must be in the same scope, else no data will show in report
   - Filters (optional): Example: can filter by browser or browser version
   - Views (optional): Can associate custom reports with other views and shared with users who have access to the view(s)
+  - Save
+  - Can now see event category, action, and label in same report
+- Benefits of Custom Reports:
+  - Can use a Custom Dimension as primary (rather than secondary as in standard reports)
+  - Can include more than two dimensions per row
+  - Can include Custom Metrics
 
-
-## 3.5 Assessment 3:
+## 3.5 Assessment 3: 15/15 - 100% (Second try)
 
