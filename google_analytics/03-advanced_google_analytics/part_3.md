@@ -88,20 +88,37 @@ Studying the transcript instead of watching the video.
 
 ### 3.2.2 Video: Using Multi-Channel Funnel reports for analysis (4:24)
 
-- To access Channels report: Acquisition -> All Traffic -> Channels
-  - Data is segmented by Channel
-- And so on ... **Note:** The video contains the same information as the "Click through the guide" section
+Attribution Modeling
+
+- Set of rules determining how to credit conversions
+- By default: "last click" attribution model - only the last one before the conversion counts
+
+Multi-Channel Funnel (MCF) reports
+
+- Reports showing what role prior marketing efforts have played
+  - Learn what efforts should be credited with an "assisted conversion"
+  - Can see how long it took to go from initial interest to purchase
+  - Includes interactions with paid and organic search, referral sites, affiliates, social, email
+- Conversions -> Multi-Channel Funnel reports -> Overview report
+  - Total conversions, and which were click-assisted, impression-assisted, or rich media-assisted
+- Conversions -> Multi-Channel Funnel reports -> Assisted Conversions report
+  - Higher numbers -> more the channel helped with the conversion
+- Conversions -> Multi-Channel Funnel reports -> Top Conversions Paths report
+  - Shows channel combinations that led to conversion
+- Conversions -> Multi-Channel Funnel reports -> Time Lag report
+  - Time in days from initial interest to conversion
+- Conversions -> Multi-Channel Funnel reports -> Path Length report
+  - Average number of interactions it took to convert
+- All show which channels are contributing to the conversion rate
 
 ### 3.2.3 Complete the activity: 3/3 - 100% (first try)
 
 Note: For question 2, Analytics displayed a warning about looking at a filtered view.
 I ignored this warning and was able to choose the correct answer regardless.
 
-## 3.3 Analyze data by channel
+## 3.3 Analyze data by audience
 
 ### 3.3.1 Click through the guide (no video for this section)
-
-
 
 ### 3.3.2 Complete the activity:
 
