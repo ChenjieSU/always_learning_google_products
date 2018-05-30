@@ -120,6 +120,43 @@ I ignored this warning and was able to choose the correct answer regardless.
 
 ### 3.3.1 Click through the guide (no video for this section)
 
+Using Activity, Cohorts, and Benchmarking for Audience Analysis
+
+- Active Users report: Audience -> Active Users
+  - Number of unique users who initiated sessions in the last 1, 7, 14, or 30 days
+  - Sudden, short-term drops: may be due to bad press or social content
+  - Long-term drops: possible issues with site code or marketing efforts
+- Cohort Analysis report: Audience -> Cohort Analysis
+  - Examine groups of users and their behavior
+  - Report options - drop-downs in header:
+    - Cohort Type - Acquisition Date: cohorts grouped by when they stared their first session
+    - Cohort Size - Group by day, week, or month
+    - Metric - User Retention (default), Goal Completions, Pageviews, Revenue, Session Duration, etc.
+    - Date Range - Last 7, 14, 21, or 30 days
+  - Example - compare revenue across cohorts:
+    - Size: by week
+    - Metric: Revenue per User
+    - Date Range: Last 9 weeks
+  - Review report: builds a table showing avg. revenue per user
+    - Top row: avg. revenue per user for all users
+    - Analyze cohorts: other rows, avg. revenue per user for each cohort
+    - Heatmap: darker blue -> higher numbers, lighter blue -> lower numbers
+  - Apply android landing page segment
+  - Compare segments to analyze marketing campaign efforts
+- Benchmarking report: Audience -> Benchmarking
+  - Compare your data with aggregated, anonymized data from other companies
+  - Audience -> Benchmarking -> Channels
+    - Toolbar: dropdowns to select industry vertical, region, and session size
+    - Example: All Shopping, US -> All Regions, 5000-9999
+    - Green up arrows -> better than average, Red down arrows -> not that great
+    - Heatmap: darker cells -> larger differences
+  - Audience -> Benchmarking -> Location
+    - Compare to industry numbers for selected location
+  - Audience -> Benchmarking -> Devices
+    - Look at separate numbers for desktop, mobile, and tablet traffic
+    - Details toggle: icon in upper left corner of data table header
+    - Heatmap toggle: icon in upper left next to details toggle
+
 ### 3.3.2 Complete the activity:
 
 
