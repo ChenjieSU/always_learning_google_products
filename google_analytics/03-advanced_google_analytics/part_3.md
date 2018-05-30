@@ -157,14 +157,30 @@ Using Activity, Cohorts, and Benchmarking for Audience Analysis
     - Details toggle: icon in upper left corner of data table header
     - Heatmap toggle: icon in upper left next to details toggle
 
-### 3.3.2 Complete the activity:
-
-
+### 3.3.2 Complete the activity: 3/3 - 100%
 
 ## 3.4 Analyze data with Custom Reports
 
 ### 3.4.1 Click through the guide (no video for this section)
 
+Using Custom Reports
+
+- Analytics left nav -> Customization (under Home) -> Custom Reports -> New Custom Report
+  - Want to see event category, action, and label dimensions in same report
+  - Title: Event Custom Report
+  - Note: can add report tabs
+  - Report types:
+    - Explorer - standard Analytics report: line graph, data table, search and sort options, and secondary dimensions
+    - Flat Table - static, sortable table
+    - Map Overlay - heat map, with darker colors indicating more traffic and engagement
+  - Dimensions -> add dimension - must have at least 1, maximum of 5
+    - Event Category
+    - Event Action
+    - Event Label
+  - Metrics: Total Events, Unique Events
+  - Note: Dimensions and Metrics must be in the same scope, else no data will show in report
+  - Filters (optional): Example: can filter by browser or browser version
+  - Views (optional): Can associate custom reports with other views and shared with users who have access to the view(s)
 
 
 ## 3.5 Assessment 3:
