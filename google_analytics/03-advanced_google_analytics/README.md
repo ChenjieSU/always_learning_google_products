@@ -4,7 +4,7 @@ Notes for the Advanced Google Analytics class at the Analytics Academy.
 
 # Link to My Certificate of Completion:
 
-- (TBD)
+- https://analytics.google.com/analytics/academy/course/7/certificate
 
 # References:
 
@@ -19,11 +19,11 @@ For the notes for each part, see the individual `part_?.md` files in this direct
 
 # Assessment Summary
 
-## Assessment 1:
+## Assessment 1: 15/15 - 100%
 
-## Assessment 2:
+## Assessment 2: 12/12 - 100% (Third try)
 
-## Assessment 3:
+## Assessment 3: 15/15 - 100% (Second try)
 
-## Assessment 4:
+## Assessment 4: 10/10 - 100% (Second try)
 
