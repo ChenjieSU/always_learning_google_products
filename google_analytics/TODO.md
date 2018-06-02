@@ -14,6 +14,8 @@ These changes are based on what I am learning by going through the Analytics Aca
 
 ### From Part 1, Section 4 (1.4 Demo):
 
+**DONE.**
+
 - Create three views for each site, as demonstrated in this section:
   - Raw Data
   - Test View
@@ -28,6 +30,8 @@ These changes are based on what I am learning by going through the Analytics Aca
   - AdSense acct number: pub-2594011034406643
 
 ## From Part 1 of the Google Analytics for Beginners Class
+
+**DONE.**
 
 ### From Part 1, Section 3 (3.1 Audience reports):
 
@@ -90,7 +94,13 @@ References:
 
 - Transcript of video: https://support.google.com/analytics/answer/7165643?hl=en
 
+### More!
 
+#### Ideas From Poking Around in Analytics - After Taking the Class
 
-
+- In-page Analytics:
+  - Admin -> (Under Property) Property Settings
+  - Change to tracking code required
+  - "How to setup..." link says the extension will no longer receive updates
+  - Hmmm.  Check out later
 
