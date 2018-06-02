@@ -21,6 +21,11 @@ These changes are based on what I am learning by going through the Analytics Aca
 - Create filter for my IP address in the Test View
 - Test the filter
 - Copy it to the Master View
+- Extra: while we're at it, go ahead and link up my AdSense account:
+  - Admin -> Property -> (Under Product Linking) AdSense Linking
+  - Select AdSense for Content -> Continue
+  - Link all views -> Enable Link -> Done
+  - AdSense acct number: pub-2594011034406643
 
 ## From Part 1 of the Google Analytics for Beginners Class
 
