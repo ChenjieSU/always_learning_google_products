@@ -90,19 +90,34 @@ more than this until after taking that class.
 - Second drop down on this page is about setting up site search.
   - https://analytics.google.com/analytics/academy/course/7/unit/2/lesson/6
 
-**We will want to do this eventually, but not right now.**
+**We will want to do this eventually, for seeourminds.com, at least, but not right now.**
 
 References:
 
 - Transcript of video: https://support.google.com/analytics/answer/7165643?hl=en
 
-### More!
+### More Ideas, From After Taking the Class
 
-#### Ideas From Poking Around in Analytics - After Taking the Class
+#### Link Analytics to Search Console
+
+**DONE.**
+
+Learned from clicking on alerts (bell icon in header).
+
+- Admin -> (Under Property, Product Linking) All Products
+- Search console (scroll down if necessary) -> Link Account
+
+#### Enable Enhanced Link Attribution (??)
+
+**Maybe later.**
+
+Learned from looking at the Property Settings.
 
 - In-page Analytics:
   - Admin -> (Under Property) Property Settings
-  - Change to tracking code required
+  - Enable Enhanced Link Attribution
+  - Need to change the tracking code required
   - "How to setup..." link says the extension will no longer receive updates
-  - Hmmm.  Check out later
+  - Hmmm.  Looks like this may be going away, and I am not sure what this does anyway.
+  - **Check out later**
 
