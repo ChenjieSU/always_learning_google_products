@@ -42,7 +42,7 @@ Some of these may seem atypical, but at this point this is what I want to know.
   - Note when people complete one of the quizzes - and note which one they do
   - Note when people sign up for the email list, what were they doing before signing up
 
-## Events to Set up on SeeOurMinds.com
+# Events to Set up on SeeOurMinds.com
 
 Set up goals and conversions on SeeOurMinds.com for the following actions:
 
@@ -50,12 +50,73 @@ Set up goals and conversions on SeeOurMinds.com for the following actions:
   - click on one of the main buttons
 - Gallery page, minor conversions:
   - Click on "Show the Whole Story"
-  - Click to see an image "up close"
+  - Click on an image to enter a gallery
+  - Click on an image to see its image page
 - Image page, minor conversions:
   - Click on "Explain the [color]"
   - Click on "Show the Whole Story"
 - Major conversions:
   - Sign up for the email list
   - Complete one of the quizzes
+
+# Categories, Actions, Labels, and Values
+
+These values are what I really need to decide on before updating the code.
+
+## Home Page, Minor Conversion:
+
+- Click on one of the main buttons
+  - Category: Button
+  - Action: Click
+  - Label: Destination
+  - Value: [your_mind, gallery, my_mind, learn_more]
+
+## Gallery Page, Minor Conversions:
+
+- Click on "Show the Whole Story" Button
+  - Category: Button
+  - Action: Click
+  - Label: Show Gallery Story
+  - Value: [Gallery Page Name]
+
+- Click on an image to enter a gallery
+  - Category: Image
+  - Action: Click
+  - Label: Enter Gallery
+  - Value: [Gallery Page Name]
+
+- Click on an image to see its image page
+  - Category: Image
+  - Action: Click
+  - Label: See Image
+  - Value: [Image Page Name]
+
+## Image Page, Minor Conversions:
+
+- Click on "Explain the [color]"
+  - Category: Button
+  - Action: Click
+  - Label: Color
+  - Value: [Blue, Green, Red, Yellow]
+
+- Click on "Show the Whole Story"
+  - Category: Button
+  - Action: Click
+  - Label: Show Image Story
+  - Value: [Image Page Name]
+
+## Major Conversions:
+
+- Sign up for the email list
+  - Category: Email List
+  - Action: Join
+  - Label: Referring Page
+  - Value: Capture [Referring Page] - if possible
+
+- Complete one of the quizzes
+  - Category: Quiz
+  - Action: Completion
+  - Label: Version
+  - Value: [2XS, XS, S, M, L, XL, 2XL]
 
 
