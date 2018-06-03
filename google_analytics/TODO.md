@@ -74,7 +74,8 @@ SeeOurMinds.com: write up a short measurement plan and set up goals and conversi
 - Image page, minor conversions:
   - Click on "Explain the [color]"
   - Click on "Show the Whole Story"
-- Major conversion:
+- Major conversions:
+  - Complete one of the quizzes - must capture which one
   - Sign up for the email list
 
 **Note:** Set up **only** these goals for now.
