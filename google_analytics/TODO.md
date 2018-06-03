@@ -70,7 +70,8 @@ SeeOurMinds.com: write up a short measurement plan and set up goals and conversi
   - click on one of the main buttons
 - Gallery page, minor conversions:
   - Click on "Show the Whole Story"
-  - Click to see an image "up close"
+  - Click on an image to enter a gallery
+  - Click on an image to see its image page
 - Image page, minor conversions:
   - Click on "Explain the [color]"
   - Click on "Show the Whole Story"
