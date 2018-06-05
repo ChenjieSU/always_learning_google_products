@@ -68,55 +68,95 @@ These values are what I really need to decide on before updating the code.
 - Click on one of the main buttons
   - Category: Button
   - Action: Click
-  - Label: Destination
-  - Value: [your_mind, gallery, my_mind, learn_more]
+  - Label: Home Page
+  - Value: [See Your Mind, See Their Minds, See My Mind, Learn More]
+- **DONE**
 
-## Gallery Page, Minor Conversions:
+## Gallery List Page, Minor Conversions:
 
-- Click on "Show the Whole Story" Button
-  - Category: Button
+- Click on a link to enter a gallery
+  - Category: Link
   - Action: Click
-  - Label: Show Gallery Story
+  - Label: Enter Gallery
   - Value: [Gallery Page Name]
+- **DONE**
 
 - Click on an image to enter a gallery
   - Category: Image
   - Action: Click
   - Label: Enter Gallery
   - Value: [Gallery Page Name]
+- **DONE**
+
+- Click on [More] or [Less] to show or hide the entire gallery list page teaser
+  - Category: Link
+  - Action: Click
+  - Label: See Gallery List Page Teaser
+  - Value: [Gallery Name]
+- **DONE**
+
+## Gallery Page, Minor Conversions:
+
+- Click on "Show the Story" Button
+  - Category: Button
+  - Action: Click
+  - Label: Show Gallery Story
+  - Value: [Gallery Page Name]
+- **DONE**
+
+- Click on [More] or [Less] to show or hide the entire gallery page teaser
+  - Category: Link
+  - Action: Click
+  - Label: See Gallery Page Teaser
+  - Value: [Image Page Name]
+- **DONE**
 
 - Click on an image to see its image page
   - Category: Image
   - Action: Click
-  - Label: See Image
+  - Label: See Image Page
   - Value: [Image Page Name]
+- **DONE**
 
 ## Image Page, Minor Conversions:
 
 - Click on "Explain the [color]"
   - Category: Button
   - Action: Click
-  - Label: Color
-  - Value: [Blue, Green, Red, Yellow]
+  - Label: Explain the [dom, aux] color: [Blue, Green, Red, Yellow]
+  - Value: [Image Title]
+- **DONE**
 
 - Click on "Show the Whole Story"
   - Category: Button
   - Action: Click
   - Label: Show Image Story
-  - Value: [Image Page Name]
+  - Value: [Image Title]
+- **DONE**
+
+- Click on "Hide the Story"
+  - Category: Button
+  - Action: Click
+  - Label: Hide Image Story
+  - Value: [Image Title]
+- **DONE**
 
 ## Major Conversions:
-
-- Sign up for the email list
-  - Category: Email List
-  - Action: Join
-  - Label: Referring Page
-  - Value: Capture [Referring Page] - if possible
 
 - Complete one of the quizzes
   - Category: Quiz
   - Action: Completion
   - Label: Version
   - Value: [2XS, XS, S, M, L, XL, 2XL]
+- **DONE**
 
+- Sign up for the email list
+  - Category: Email List
+  - Action: Join
+  - Label: Referring Page
+  - Value: Capture [Referring Page] - if possible
+- **DONE**
+- **Note:**
+  - Email signup page is on Groja.com
+  - If they actually sign up, it sends an email
 
