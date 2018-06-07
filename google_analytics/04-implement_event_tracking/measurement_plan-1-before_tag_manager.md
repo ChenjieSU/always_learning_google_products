@@ -59,102 +59,108 @@ Set up goals and conversions on SeeOurMinds.com for the following actions:
   - Sign up for the email list
   - Complete one of the quizzes
 
-# Categories, Actions, Labels, and Values
+# Categories, Actions, and Labels
 
 These values are what I really need to decide on before updating the code.
+
+Speaking of "Values," apparently they need to be integers.
+Originally I had most of Actions set to "Click," but was seeing no events.
+Now I suspect that was because I was using strings for the Values i.e., the values now used as Labels.
+Updated all events to use the old Labels as the new Actions, the old (string) Values as the new Labels,
+and send 1 as the Value.
 
 ## Home Page, Minor Conversion:
 
 - Click on one of the main buttons
   - Category: Button
-  - Action: Click
-  - Label: Home Page
-  - Value: [See Your Mind, See Their Minds, See My Mind, Learn More]
+  - Action: Leave Home Page
+  - Label: [See Your Mind, See Their Minds, See My Mind, Learn More]
+  - Value: 1
 - **DONE**
 
 ## Gallery List Page, Minor Conversions:
 
 - Click on a link to enter a gallery
   - Category: Link
-  - Action: Click
-  - Label: Enter Gallery
-  - Value: [Gallery Page Name]
+  - Action: Enter Gallery
+  - Label: [Gallery Page Name]
+  - Value: 1
 - **DONE**
 
 - Click on an image to enter a gallery
   - Category: Image
-  - Action: Click
-  - Label: Enter Gallery
-  - Value: [Gallery Page Name]
+  - Action: Enter Gallery
+  - Label: [Gallery Page Name]
+  - Value: 1
 - **DONE**
 
 - Click on [More] or [Less] to show or hide the entire gallery list page teaser
   - Category: Link
-  - Action: Click
-  - Label: See Gallery List Page Teaser
-  - Value: [Gallery Name]
+  - Action: See Gallery List Page Teaser
+  - Label: [Gallery Name]
+  - Value: 1
 - **DONE**
 
 ## Gallery Page, Minor Conversions:
 
 - Click on "Show the Story" Button
   - Category: Button
-  - Action: Click
-  - Label: Show Gallery Story
-  - Value: [Gallery Page Name]
+  - Action: Show Gallery Story
+  - Label: [Gallery Page Name]
+  - Value: 1
 - **DONE**
 
 - Click on [More] or [Less] to show or hide the entire gallery page teaser
   - Category: Link
-  - Action: Click
-  - Label: See Gallery Page Teaser
-  - Value: [Image Page Name]
+  - Action: See Gallery Page Teaser
+  - Label: [Image Page Name]
+  - Value: 1
 - **DONE**
 
 - Click on an image to see its image page
   - Category: Image
-  - Action: Click
-  - Label: See Image Page
-  - Value: [Image Page Name]
+  - Action: See Image Page
+  - Label: [Image Page Name]
+  - Value: 1
 - **DONE**
 
 ## Image Page, Minor Conversions:
 
 - Click on "Explain the [color]"
   - Category: Button
-  - Action: Click
-  - Label: Explain the [dom, aux] color: [Blue, Green, Red, Yellow]
-  - Value: [Image Title]
+  - Action: Explain the [dom, aux] color: [Blue, Green, Red, Yellow]
+  - Label: [Image Title]
+  - Value: 1
 - **DONE**
 
 - Click on "Show the Whole Story"
   - Category: Button
-  - Action: Click
-  - Label: Show Image Story
-  - Value: [Image Title]
+  - Action: Show Image Story
+  - Label: [Image Title]
+  - Value: 1
 - **DONE**
 
 - Click on "Hide the Story"
   - Category: Button
-  - Action: Click
-  - Label: Hide Image Story
-  - Value: [Image Title]
+  - Action: Hide Image Story
+  - Label: [Image Title]
+  - Value: 1
 - **DONE**
 
 ## Major Conversions:
 
 - Complete one of the quizzes
   - Category: Quiz
-  - Action: Completion
-  - Label: Version
-  - Value: [2XS, XS, S, M, L, XL, 2XL]
+  - Action: Version
+  - Label: [2XS, XS, S, M, L, XL, 2XL]
+  - Value: 1
 - **DONE**
 
 - Sign up for the email list
-  - Category: Email List
-  - Action: Join
-  - Label: Referring Page
-  - Value: Capture [Referring Page] - if possible
+  - Category: Join Email List
+  - Action: Referring Page
+  - Label: Capture [Referring Page] - if possible
+  - Value: 1
 - **DONE**
 - **Note:**
   - Email signup page is on Groja.com
