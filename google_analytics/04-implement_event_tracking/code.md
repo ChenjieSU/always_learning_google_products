@@ -25,4 +25,6 @@ ga('send', {
 - How to set up Event Tracking: https://support.google.com/analytics/answer/7165642?hl=en
 - Page with important links: https://support.google.com/analytics/answer/1136960?hl=en
 - Code to use, and how to use it: https://developers.google.com/analytics/devguides/collection/analyticsjs/events
+- Common setup mistakes: https://support.google.com/analytics/answer/1009683?hl=en
+- Troubleshooting: https://support.google.com/analytics/troubleshooter/7400465
 
