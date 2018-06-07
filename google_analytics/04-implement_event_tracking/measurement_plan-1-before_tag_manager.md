@@ -133,6 +133,13 @@ and send 1 as the Value.
   - Value: 1
 - **DONE**
 
+- Click on "Hide Explanation"
+  - Category: Button
+  - Action: Hide Explanation, [dom, aux]: [Blue, Green, Red, Yellow]
+  - Label: [Image Title]
+  - Value: 1
+- **DONE**
+
 - Click on "Show the Whole Story"
   - Category: Button
   - Action: Show Image Story
@@ -150,8 +157,8 @@ and send 1 as the Value.
 ## Major Conversions:
 
 - Complete one of the quizzes
-  - Category: Quiz
-  - Action: Version
+  - Category: Complete Quiz
+  - Action: Complete Quiz Version
   - Label: [2XS, XS, S, M, L, XL, 2XL]
   - Value: 1
 - **DONE**
