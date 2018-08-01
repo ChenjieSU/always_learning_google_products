@@ -28,7 +28,7 @@ git clone https://github.com/material-components/material-components-web-codelab
 cd material-components-web-codelabs/mdc-101/starter
 sudo npm install
 cat webpack.config.js
-npm start
+sudo npm start
 cat index.html
 ```
 
@@ -43,8 +43,31 @@ vi index.html
 vi app.scss
 vi app.js
 vi index.html
-npm start
+sudo npm start
 ```
 
 Access in browser: http://localhost:8080/
+
+### Step 4
+
+```
+sudo npm install @material/button
+vi index.html
+vi app.scss
+vi app.js
+sudo npm start
+```
+
+Access in browser: http://localhost:8080/
+
+### Step 5
+
+```
+cd ../complete/
+sudo npm start
+cd ..
+diff starter/index.html complete/index.html
+diff starter/app.scss complete/app.scss
+diff starter/app.js complete/app.js
+```
 
