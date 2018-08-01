@@ -1,73 +1,31 @@
 
 # material_design/01-code_labs/README.md
 
-# References
+## References
 
 - Material Design - Web Codelabs: https://material.io/collections/developer-tutorials/#web
 - Using webpack: https://webpack.js.org/
 
-# Directories
+## Directories
 
 - Web 101 -> mdc_101-web-material_basics
   - https://codelabs.developers.google.com/codelabs/mdc-101-web/#0
+- Web 102 -> mdc_102-web-material_structure_and_layout
+  - https://codelabs.developers.google.com/codelabs/mdc-102-web/index.html
+- Web 103 -> mdc_103-web-material_theming
+  - https://codelabs.developers.google.com/codelabs/mdc-103-web/index.html
+- Web 111 -> mdc_111-web-material_incorporating_components
+  - https://codelabs.developers.google.com/codelabs/mdc-111-web/
+- Web 112 -> mdc_112-web-material_mdc_with_web_frameworks
+  - https://codelabs.developers.google.com/codelabs/mdc-112-web/
 
-# Steps and Comments
+## Steps and Comments
 
-## mdc_101-web-material_basics
+See the README.md file in each of the directories:
 
-### Step 1
-
-- Goal: Text field, Button, and Ripple
-
-### Step 2
-
-```
-mkdir github
-cd github/
-git clone https://github.com/material-components/material-components-web-codelabs
-cd material-components-web-codelabs/mdc-101/starter
-sudo npm install
-cat webpack.config.js
-sudo npm start
-cat index.html
-```
-
-Access in browser: http://localhost:8080/
-
-### Step 3
-
-```
-sudo npm install @material/textfield
-#### npm install material-components-web   # to install all web components
-vi index.html
-vi app.scss
-vi app.js
-vi index.html
-sudo npm start
-```
-
-Access in browser: http://localhost:8080/
-
-### Step 4
-
-```
-sudo npm install @material/button
-vi index.html
-vi app.scss
-vi app.js
-sudo npm start
-```
-
-Access in browser: http://localhost:8080/
-
-### Step 5
-
-```
-cd ../complete/
-sudo npm start
-cd ..
-diff starter/index.html complete/index.html
-diff starter/app.scss complete/app.scss
-diff starter/app.js complete/app.js
-```
+- mdc_101-web-material_basics/README.md
+- mdc_102-web-material_structure_and_layout/README.md
+- mdc_103-web-material_theming/README.md
+- mdc_111-web-material_incorporating_components/README.md
+- mdc_112-web-material_mdc_with_web_frameworks/README.md
 
