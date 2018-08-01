@@ -24,4 +24,4 @@ codelabs-nodejs
 #
 # material design codelab 1: getting code from github, don't want to check it in
 #
-github/
+github*/
