@@ -20,3 +20,8 @@ npm-debug.log
 # Level 2 code lab: cloned repo for the base files
 #
 codelabs-nodejs
+
+#
+# material design codelab 1: getting code from github, don't want to check it in
+#
+github/
