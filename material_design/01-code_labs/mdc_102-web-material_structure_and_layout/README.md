@@ -82,7 +82,6 @@ Access in browser: http://localhost:8080/
 
 - Runs OK now we have the LTS version of node!
 
-
 Access in browser: http://localhost:8080/
 
 ### Step 4
@@ -95,10 +94,23 @@ vi app.scss
 
 Still not compiling.  Rats.
 
+Try updating `package.json` :
+
+```
+mv package.json package.json-old
+diff package.json ../complete/package.json
+cp ../complete/package.json .
+l
+rm -fr node_modules/
+sudo npm install
+sudo npm start
+```
+
+- Runs OK now we have the correct version of package.json
+
 Access in browser: http://localhost:8080/
 
 ### Step 5
 
-```
-```
+Got it to work by comparing files in start with complete, and updating the package.json file.
 
