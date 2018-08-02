@@ -28,6 +28,12 @@ Access in browser: http://localhost:8080/
 ### Step 3
 
 ```
+sudo npm install @material/button@0.35.0
+sudo npm start
+vi _theme.scss
+vi index.html
+vi app.js
+vi index.html
 ```
 
 Access in browser: http://localhost:8080/
@@ -35,11 +41,30 @@ Access in browser: http://localhost:8080/
 ### Step 4
 
 ```
+sudo npm install @material/select@0.35.0
+sudo npm start
+vi _theme.scss
+vi index.html
+vi app.js
 ```
 
 Access in browser: http://localhost:8080/
+- Seems like quite a bit of trouble just to make it look a little cooler
 
 ### Step 5
+
+```
+sudo npm install @material/textfield@0.35.0
+sudo npm start
+vi _theme.scss
+vi index.html
+vi app.js
+```
+
+Access in browser: http://localhost:8080/
+- Again, it seems like quite a bit of trouble just to make it look a little cooler
+
+### Step 6
 
 ```
 ```
