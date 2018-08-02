@@ -36,7 +36,7 @@ Access in browser: http://localhost:8080/
 ### Step 4
 
 ```
-npm install @material/typography@0.35.0
+sudo npm install @material/typography@0.35.0
 vi app.scss
 vi home.html
 vi app.scss
@@ -49,16 +49,27 @@ Access in browser: http://localhost:8080/
 ### Step 5
 
 ```
+sudo npm install @material/elevation@0.35.0
+## Update available 5.6.0 → 6.2.0
+## Run npm i npm to update
+## --> NOT doing this YET
+vi app.scss
+vi home.html
+vi app.scss
 ```
 
 Access in browser: http://localhost:8080/
+- Still working ok, and looking a little better
 
 ### Step 6
 
 ```
+vi home.html
+vi app.scss
 ```
 
 Access in browser: http://localhost:8080/
+- Still working ok, and looking a little better
 
 ### Step 7
 
