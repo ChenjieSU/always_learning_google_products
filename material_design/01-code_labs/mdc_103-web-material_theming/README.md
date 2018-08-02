@@ -16,23 +16,35 @@ Web 103
 ### Step 2
 
 ```
+cd ../../mdc-103/starter/
+sudo npm install
+sudo npm start
 ```
 
 Access in browser: http://localhost:8080/
+- So far so good
 
 ### Step 3
 
 ```
+vi app.scss
 ```
 
 Access in browser: http://localhost:8080/
+- So far so good
 
 ### Step 4
 
 ```
+npm install @material/typography@0.35.0
+vi app.scss
+vi home.html
+vi app.scss
+
 ```
 
 Access in browser: http://localhost:8080/
+- So far so good
 
 ### Step 5
 
