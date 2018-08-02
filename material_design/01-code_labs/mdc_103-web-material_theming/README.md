@@ -74,9 +74,11 @@ Access in browser: http://localhost:8080/
 ### Step 7
 
 ```
+vi app.scss
 ```
 
 Access in browser: http://localhost:8080/
+- A lot of changes, but it looks pretty cool
 
 ### Step 8
 
