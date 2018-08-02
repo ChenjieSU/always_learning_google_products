@@ -11,7 +11,17 @@ Web 112
 
 ### Step 1
 
-- Goal:
+- Goal: Build a React Component, which uses MDC Web as a foundation
+  - Build a custom Adapter to use the Foundation logic to achieve a Material Design React Component
+
+#### Foundation, Adapter, Component
+
+- Every package in MDC Web comes with a Component, Foundation, and Adapter
+- Foundation: the business logic implementing Material Design
+  - Foundation has an Adapter
+- Adapter: an interface, implemented and used to interact with the DOM structure
+- Component: implements the Adapter and provides proxy methods for the Foundation
+  - Component has a Foundation
 
 Note:
 
