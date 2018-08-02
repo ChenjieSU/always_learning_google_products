@@ -32,9 +32,15 @@ In this case, we are using React.
 ### Step 2
 
 ```
+sudo npm install
+sudo npm start
+more App.js
+cat TopAppBar.js
 ```
 
 Access in browser: http://localhost:8080/
+
+- Runs ok but pretty ugly
 
 ### Step 3
 
