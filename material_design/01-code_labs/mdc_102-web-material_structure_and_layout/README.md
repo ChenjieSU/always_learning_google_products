@@ -83,15 +83,17 @@ Access in browser: http://localhost:8080/
 - Runs OK now we have the LTS version of node!
 
 
-```
-```
-
 Access in browser: http://localhost:8080/
 
 ### Step 4
 
 ```
+sudo npm install @material/image-list
+vi home.html
+vi app.scss
 ```
+
+Still not compiling.  Rats.
 
 Access in browser: http://localhost:8080/
 
