@@ -45,19 +45,34 @@ Access in browser: http://localhost:8080/
 ### Step 3
 
 ```
+vi TopAppBar.js
 ```
 
 Access in browser: http://localhost:8080/
+
+- White screen: javascript errors
 
 ### Step 4
 
 ```
+vi TopAppBar.js
 ```
 
 Access in browser: http://localhost:8080/
 
+- White screen: javascript errors
+
 ### Step 5
 
 ```
+vi TopAppBar.js
 ```
+
+Access in browser: http://localhost:8080/
+
+- It works now, interesting - and pretty slick
+
+### Step 6
+
+- Highly undecided about whether to use something like this, though.  Hmmm.
 
