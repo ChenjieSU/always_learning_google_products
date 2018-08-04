@@ -1,8 +1,10 @@
 #
 # Documentation is here: http://git-scm.com/docs/gitignore
 #
+downloads/
 tmp/
 unpack/
+unzip/
 
 #
 # For vim temporary files
