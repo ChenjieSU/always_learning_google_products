@@ -29,8 +29,18 @@
     - Fixed header and drawer
     - Scrolling header
     - Waterfall header – header that contracts on page scroll
-    - See https://getmdl.io/components/index.html#layout-section/layout
-  - Grid: "turn a grid cell into a card component by adding the appropriate .mdl-card class to an element with the .mdl-cell class"
+  - **See https://getmdl.io/components/index.html#layout-section/layout**
+  - **Consider using the tab format demoed in the "Using Tabs for Navigation" section**
+  - Grid: **"turn a grid cell into a card component by adding the appropriate .mdl-card class to an element with the .mdl-cell class"**
+- creativebloq.com
+  - https://www.creativebloq.com/web-design/build-static-site-material-design-lite-21619409
+  - Use to define rows:
+    - `<div class="mdl-layout__header-row">`
+  - Use for footer:
+    - `<footer class="mdl-mini-footer">`
+- tutorialspoint.com
+  - https://www.tutorialspoint.com/materialdesignlite/materialdesignlite_footers.htm
+  - **For future reference** - looks like it has a lot of information
 
 ## Directories
 
@@ -39,8 +49,11 @@
   - https://getmdl.io/customize/index.html#
 - 01-tutorial-scotch_io
   - https://scotch.io/@mustiag/getting-started-with-material-design-lite
--
-
+- 02-exp
+  - Add features from other tutorials:
+    - combine cell and card classes
+    - define rows
+    - use classes for footer
 
 ## Comments
 
