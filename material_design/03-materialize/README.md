@@ -19,7 +19,17 @@
 
 ## Directories
 
-- 00-materializecss_com
+### 00-materializecss_com
 
-- 01-tutorial-scotch_io
+- Downloaded:
+  - materialize - no index.html file
+  - starter-template - bare bones starter
+  - parallax-template - starter with cool parallax thing going on
+- For details, see the README.md file
+
+### 01-tutorial-scotch_io
+
+- Went through the tutorial
+  - Added all suggested code, up to the Portfolio Site section, but some of it didn't work
+  - Did the Portfolio Site section in a separate directory
 
