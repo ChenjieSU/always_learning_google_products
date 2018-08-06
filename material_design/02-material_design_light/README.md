@@ -11,7 +11,7 @@
 ### Tutorials
 
 - scotch.io
-  - the first one I tried, in ``, see below
+  - the first, and only one I really went through, in `01-tutorial-scotch_io`, see below
 - tutsplus.com
   - https://webdesign.tutsplus.com/tutorials/learning-material-design-lite-the-grid--cms-24531
   - Did not try it, but it has some more info about fine-tuning grids
