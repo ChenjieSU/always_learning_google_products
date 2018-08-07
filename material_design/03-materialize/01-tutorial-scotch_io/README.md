@@ -8,10 +8,17 @@
 
 ## Directories
 
-### Site
+### `Site`
 
 #### Setup Process:
 
 1. Download starter zip file from materializecss.com and unzip
-2. Add code from scotch.io for index.html
+2. Add code from the scotch.io tutorial to index.html
+
+### `portfolio_site`
+
+#### Setup Process:
+
+1. Copy minimal starter Site from `../00-materializecss_com/Site/* portfolio_site/`
+2. Add code from the scotch.io tutorial to index.html
 
