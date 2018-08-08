@@ -9,28 +9,61 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script>
+   $( document ).ready(function() {
+    $(".dropdown-button").dropdown();
+   });
+  </script>
 </head>
 <body>
 
- <nav class="white" role="navigation">
-  <div class="nav-wrapper container">
-    <a id="logo-container" href="/" class="brand-logo">
-     <img src="images/jmws_logo-from_github.jpg" width="63" height="63"
-          alt="Image of INFP containing more blue and red squares and fewer yellow and green squares."></a>
-    <ul class="right hide-on-med-and-down">
-     <li><a href="index.html#Home">Home</a></li>
-     <li><a href="index.html#Visions">Visions</a></li>
-     <li><a href="index.html#Privacy">Privacy</a></li>
-    </ul>
+ <div id="main-navigation">
+  <nav class="white" role="navigation">
+   <div class="nav-wrapper container">
+     <a id="logo-container" href="/" class="left-align brand-logo">
+      <img src="images/jmws_logo-from_github.jpg" width="55" height="55" class="z-depth-3"
+           alt="Image of INFP containing more blue and red squares and fewer yellow and green squares.">
+     </a>
+     <ul class="right hide-on-med-and-down">
+      <li><a href="index.html#Home">Home</a></li>
+      <li><a href="index.html#Visions">Visions</a></li>
+      <li><a href="index.html#Privacy">Privacy</a></li>
+     </ul>
+     <ul id="nav-mobile" class="sidenav">
+      <li><a href="index.html#Home">Home</a></li>
+      <li><a href="index.html#Visions">Visions</a></li>
+      <li><a href="index.html#Privacy">Privacy</a></li>
+     </ul>
+     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+   </div>
+  </nav>
+ </div>
 
-    <ul id="nav-mobile" class="sidenav">
-     <li><a href="index.html#Home">Home</a></li>
-     <li><a href="index.html#Visions">Visions</a></li>
-     <li><a href="index.html#Privacy">Privacy</a></li>
-    </ul>
-    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-  </div>
- </nav>
+ <div class="container">
+      <div class = "row" style = "width:560px;">
+         <div class = "col s12 m12 l12">
+            <h5>Nav Bar with dropdown menu</h5>
+            <ul id = "javaDropDown" class = "dropdown-content">
+               <li><a href = "#privacy_policy">PP</a></li>
+               <li><a href = "#terms_and_conditions">T&C</a></li>
+               <li class = "divider"></li>
+               <li><a href = "#disclosure">Disclosure</a></li>
+            </ul>
+            <nav>
+               <div class = "nav-wrapper">
+                  <a href = "#" class = "brand-logo center">Brand-Logo</a>
+                  <ul id = "nav-mobile" class = "right hide-on-med-and-down">
+                     <!-- Dropdown Trigger -->
+                     <li><a class = "dropdown-button" href = "#!"
+                        data-activates = "javaDropDown">Privacy<i class = "material-icons
+                        right">arrow_drop_down</i></a></li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+ </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -41,7 +74,7 @@
           <h4 class="header col s12 black-text"><q>Visualizing Personal Relationships Since 1989</q>&nbsp;&trade;</h4>
         </div>
         <div class="row center">
-          <a href="cards.html" class="btn-large waves-effect waves-light blue-grey darken-2">See the Stories</a>
+          <a href="index.html#Visions" class="btn-large waves-effect waves-light blue-grey darken-2">See the Visions</a>
         </div>
         <br><br>
 
@@ -163,9 +196,9 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
 
   </body>
 </html>
