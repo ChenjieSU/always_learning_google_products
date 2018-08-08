@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <title>Dropdown NavBar</title>
-      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
-      <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-      <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-      <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-      <script>
-         $( document ).ready(function()) {
-            $(".dropdown-button").dropdown();
-         });
-      </script>
-   </head>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1"/>
+ <title>ArtsyVisions.com</title>
 
-   <body class = "container">
+ <!-- CSS -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+ <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+ <div class="container">
       <div class = "row" style = "width:560px;">
          <div class = "col s12 m12 l12">
             <h5>Nav Bar with dropdown menu</h5>
@@ -37,5 +34,18 @@
             </nav>
          </div>
       </div>
-   </body>
+ </div><!-- .container -->
+
+ <!-- JavaScript -->
+ <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+ <!-- Note: the dropdown menu breaks when we try to use the latest version (1.0.0-rc.1) of Materialize! -->
+ <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+ <script>
+   $( document ).ready(function() {
+     $(".dropdown-button").dropdown();
+   });
+ </script>
+ <script src="js/init.js"></script>
+
+</body>
 </html>
