@@ -64,3 +64,6 @@ footer.page-footer {
 #main-navigation {
   padding: .3em 0 .3em 0;
 }
+.mobile-submenu-item {
+  margin-left: 2em;
+}
