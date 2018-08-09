@@ -67,3 +67,7 @@ footer.page-footer {
 .mobile-submenu-item {
   margin-left: 2em;
 }
+.parallax-heading-text {
+  margin: 1em 0 1em 0;
+  font-weight: bold;
+}
