@@ -10,7 +10,7 @@
  */
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: black;
 }
 
 p {
@@ -18,7 +18,7 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: grey;
 }
 
 .parallax-container {
@@ -37,13 +37,13 @@ p {
     top: 40%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 0;
   }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 5%;
+    top: -5%;  /* when tagline goes to three lines, it pushes the button too low */
   }
 }
 
@@ -66,8 +66,4 @@ footer.page-footer {
 }
 .mobile-submenu-item {
   margin-left: 2em;
-}
-.parallax-heading-text {
-  margin: 1em 0 1em 0;
-  font-weight: bold;
 }
