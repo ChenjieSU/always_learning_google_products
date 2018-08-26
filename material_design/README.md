@@ -19,16 +19,18 @@
 
 ## Directories
 
-- 01-code_labs
+- `01-code_labs`
   - Six google codelabs, the last one using react
-- 02-material_design_light
+- `02-material_design_light`
   - We really want a very simple site
-- 03-materialize
+- `03-materialize`
   - Looks like it might be an alternative
-- 04-prototypes
+- `04-prototypes`
   - Experimental area to ensure
     - We can get essential pages to look satisfactory or even good using the chosen framework
     - We have a starting point that does not depend on npm serving the code
+- `05-material_design_bootstrap`
+  - Exploring using this for groja.com or seeourminds.com or both
 
 ## Deciding on Materialize Over MDL
 
@@ -48,12 +50,14 @@
 
 ## Comments
 
-- 01-code_labs:
+- `01-code_labs`
   - Left me unsure whether I want to use either material design or react or both
-- 02-material_design_light
+- `02-material_design_light`
   - MDL is definitely a viable candidate
-- 03-materialize
+- `03-materialize`
   - Also a viable candidate
-- 04-prototypes
+- `04-prototypes`
   - Experimental area to ensure we want to continue with Materialize
+- `05-material_design_bootstrap`
+  - Exploring using this for groja.com or seeourminds.com or both
 
