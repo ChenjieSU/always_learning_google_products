@@ -45,6 +45,10 @@ Looks worth exploring further.
 
 #### Lesson 1: Navigation
 
+There are a lot of options available:
+
+- https://mdbootstrap.com/components/navbar/
+
 Tips for optimal background image:
 
 > You can use whatever image you want, but there are a few rules which you should follow.
@@ -54,6 +58,20 @@ Tips for optimal background image:
 > 1. Resolution: 1920px / 1280px
 > 2. JPG file format
 > 3. Compress the file (you can use COMPRES JPG tool)
+
+#### Lesson 2: Content Part I-A (Mask Content)
+
+- Does not look very good!
+
+#### Lesson 3: Content Part I-B (Mask Content)
+
+- Looks much better!
+
+#### Lesson 4: Content Part II (Best Features)
+
+- Not much to comment on
+
+
 
 
 
