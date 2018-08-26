@@ -43,5 +43,18 @@ Looks worth exploring further.
 
 ### `02-landing_page`
 
+#### Lesson 1: Navigation
+
+Tips for optimal background image:
+
+> You can use whatever image you want, but there are a few rules which you should follow.
+
+> Your image should be big enough to keep the quality and as lightweight as possible to not increase a page load time. That's why I recommend you prepare your picture as follows:
+
+> 1. Resolution: 1920px / 1280px
+> 2. JPG file format
+> 3. Compress the file (you can use COMPRES JPG tool)
+
+
 
 
