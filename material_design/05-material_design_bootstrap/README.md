@@ -71,8 +71,22 @@ Tips for optimal background image:
 
 - Not much to comment on
 
+#### Lesson 5: Content Part III (Examples Section)
 
+- The mask div needs to be inside the same div as the img tag
+- The image needs to be inside an anchor tag to activate the ripple effect when clicking
 
+#### Lesson 6: Content Part IV (Gallery Section)
+
+- At this time, I am not planning to use a carousel...
+
+#### Lesson 7: Content Part V-A (Contact Section - Form)
+
+- Makes the form look very modernistic
+
+#### Lesson 8: Content Part V-B (Contact Section - Map)
+
+- Played around with it a bit to get the lat-long for where I am
 
 
 
