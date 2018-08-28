@@ -15,6 +15,18 @@
 
 ### MDL
 
+- The templates page at getmdl.io
+  - https://getmdl.io/templates/
+- The showcase page at getmdl.io - all google sites
+  - https://getmdl.io/showcase/
+- An Overview of Material Design Lite (no real examples)
+  - https://webdesign.tutsplus.com/articles/an-overview-of-material-design-lite--cms-24370
+- Showcase on github:
+  - https://github.com/google/material-design-lite/wiki/Community-Showcase
+- HugoMDL: simple and responsive theme
+  - https://themes.gohugo.io/hugo-mdl/
+  - https://github.com/jchatkinson/HugoMDL
+  - Does not work out of the box, which makes me suspicious, leaving it for now
 
 ### Materialize
 
