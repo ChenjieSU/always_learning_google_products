@@ -31,6 +31,7 @@
     - We have a starting point that does not depend on npm serving the code
 - `05-material_design_bootstrap`
   - Exploring using this for groja.com or seeourminds.com or both
+- `06-landing_page_examples`
 
 ## Deciding on Materialize Over MDL
 
@@ -60,4 +61,11 @@
   - Experimental area to ensure we want to continue with Materialize
 - `05-material_design_bootstrap`
   - Exploring using this for groja.com or seeourminds.com or both
+- `06-landing_page_examples`
+  - Looking to re-do groja.com and seeourminds.com using material design
+    - MDL, Materialize, or MDB - using any one of these will be fine
+    - Idea: Materialize for artsyvisions.com, MDL for groja.com, and MDB for seeourminds.com
+  - Looking to re-do those landing pages
+  - Want to look at a bunch of them and think about it for awhile
+
 
