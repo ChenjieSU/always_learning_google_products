@@ -19,6 +19,18 @@ Thinking it is a good time to take a look at Material Design for Bootstrap.
   - License: https://mdbootstrap.com/license/
   - Support: https://mdbootstrap.com/forums/forum/support/
   - Contact: office@mdbootstrap.com
+- Footer docs:
+  - https://mdbootstrap.com/components/bootstrap-footer/#basic
+- Typography:
+  - https://mdbootstrap.com/content/typography/
+- Bootstrap Text Utilities:
+  - https://mdbootstrap.com/utilities/bootstrap-text/
+- Bootstrap Forms:
+  - https://mdbootstrap.com/components/forms/
+- Bootstrap Inputs:
+  - https://mdbootstrap.com/components/inputs/
+- Bootstrap Images:
+  - https://mdbootstrap.com/content/bootstrap-images/
 
 ## Directories
 
@@ -67,26 +79,71 @@ Tips for optimal background image:
 
 - Looks much better!
 
-#### Lesson 4: Content Part II (Best Features)
+#### Lesson 4: Content Part II: Best Features
 
 - Not much to comment on
 
-#### Lesson 5: Content Part III (Examples Section)
+#### Lesson 5: Content Part III: Examples Section
 
 - The mask div needs to be inside the same div as the img tag
 - The image needs to be inside an anchor tag to activate the ripple effect when clicking
 
-#### Lesson 6: Content Part IV (Gallery Section)
+#### Lesson 6: Content Part IV: Gallery Section
 
 - At this time, I am not planning to use a carousel...
 
-#### Lesson 7: Content Part V-A (Contact Section - Form)
+#### Lesson 7: Content Part V-A: Contact Section - Form
 
 - Makes the form look very modernistic
 
-#### Lesson 8: Content Part V-B (Contact Section - Map)
+#### Lesson 8: Content Part V-B: Contact Section - Map
 
 - Played around with it a bit to get the lat-long for where I am
+
+#### Lesson 9: Footer
+
+Links to docs from the lesson:
+
+- Footer docs:
+  - https://mdbootstrap.com/components/bootstrap-footer/#basic
+- Typography:
+  - https://mdbootstrap.com/content/typography/
+- Bootstrap Text Utilities:
+  - https://mdbootstrap.com/utilities/bootstrap-text/
+- Bootstrap Forms:
+  - https://mdbootstrap.com/components/forms/
+- Bootstrap Inputs:
+  - https://mdbootstrap.com/components/inputs/
+- Bootstrap Images:
+  - https://mdbootstrap.com/content/bootstrap-images/
+
+##### Links Section
+
+The code in the lesson differs a little bit from the code in the footer docs.
+
+Trying both versions:
+
+- `index-footer_1.html` - version of footer from the lesson
+  - contains just one column of links
+- `index-footer_2.html` - version of footer from the footer docs link above
+  - contains two columns of links
+
+The difference is just the number of columns of links.
+
+- `index.html`
+  - using code for four columns of links, from further down in the lesson
+
+##### Other Sections
+
+Adding other code snippets from the lesson to `index.html`:
+
+- Footer text
+- Forms and inputs
+- Images
+
+#### Lesson 10: Navigation - Bells and Whistles
+
+- Some features may not be available in free version
 
 
 
