@@ -157,5 +157,37 @@ Adding other code snippets from the lesson to `index.html`:
 
 - Some features may not be available in free version
 
+##### Step 1
+
+Replacing the code removes the code for our drop-down menu example.
+
+- This code actually works, taking us to the respective sections
+- Drop-down menu example code still exists in `index-footer_1.html` and `index-footer_2.html`
+
+##### Step 2
+
+Implement smooth scrolling:
+
+```
+<ul class="navbar-nav mr-auto smooth-scroll">
+```
+
+- This doesn't seem to work as hoped, and may be one of the Pro features
+  - Or we may just need some javascript...
+
+##### Step 3
+
+Removing code for search form.
+
+- Search form example code still exists in `index-footer_1.html` and `index-footer_2.html`
+
+##### Step 4
+
+Not interested in bells and whistles at this time, so skipping this for now:
+
+> The last improvements we'll add to the Navbar will be transparency and animation.
+
+- I suspect these may be Pro features
+
 
 
