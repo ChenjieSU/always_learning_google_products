@@ -21,16 +21,15 @@ Thinking it is a good time to take a look at Material Design for Bootstrap.
   - Contact: office@mdbootstrap.com
 - Footer docs:
   - https://mdbootstrap.com/components/bootstrap-footer/#basic
-- Typography:
-  - https://mdbootstrap.com/content/typography/
-- Bootstrap Text Utilities:
-  - https://mdbootstrap.com/utilities/bootstrap-text/
-- Bootstrap Forms:
-  - https://mdbootstrap.com/components/forms/
-- Bootstrap Inputs:
-  - https://mdbootstrap.com/components/inputs/
-- Bootstrap Images:
-  - https://mdbootstrap.com/content/bootstrap-images/
+- Other links found studying the footer docs:
+  - Typography: https://mdbootstrap.com/content/typography/
+  - Bootstrap Text Utilities: https://mdbootstrap.com/utilities/bootstrap-text/
+  - Bootstrap Forms: https://mdbootstrap.com/components/forms/
+  - Bootstrap Inputs: https://mdbootstrap.com/components/inputs/
+  - Bootstrap Images: https://mdbootstrap.com/content/bootstrap-images/
+  - Bootstrap Embeds: https://mdbootstrap.com/utilities/bootstrap-embeds/
+  - Bootstrap Icons: https://mdbootstrap.com/content/icons-list/
+  - Bootstrap Position: https://mdbootstrap.com/utilities/bootstrap-position/
 
 ## Directories
 
@@ -106,20 +105,10 @@ Links to docs from the lesson:
 
 - Footer docs:
   - https://mdbootstrap.com/components/bootstrap-footer/#basic
-- Typography:
-  - https://mdbootstrap.com/content/typography/
-- Bootstrap Text Utilities:
-  - https://mdbootstrap.com/utilities/bootstrap-text/
-- Bootstrap Forms:
-  - https://mdbootstrap.com/components/forms/
-- Bootstrap Inputs:
-  - https://mdbootstrap.com/components/inputs/
-- Bootstrap Images:
-  - https://mdbootstrap.com/content/bootstrap-images/
 
 ##### Links Section
 
-The code in the lesson differs a little bit from the code in the footer docs.
+- The code in the lesson differs a little bit from the code in the footer docs.
 
 Trying both versions:
 
@@ -131,15 +120,38 @@ Trying both versions:
 The difference is just the number of columns of links.
 
 - `index.html`
-  - using code for four columns of links, from further down in the lesson
+  - Using code from the lesson, and adding code from the footer docs
 
-##### Other Sections
+#### Lesson 9-A: Footer Docs
+
+Getting side-tracked and looking at links to other sections of docs from the footer docs:
+
+- Typography:
+  - https://mdbootstrap.com/content/typography/
+- Bootstrap Text Utilities:
+  - https://mdbootstrap.com/utilities/bootstrap-text/
+- Bootstrap Forms:
+  - https://mdbootstrap.com/components/forms/
+- Bootstrap Inputs:
+  - https://mdbootstrap.com/components/inputs/
+- Bootstrap Images:
+  - https://mdbootstrap.com/content/bootstrap-images/
+- Bootstrap Embeds:
+  - https://mdbootstrap.com/utilities/bootstrap-embeds/
+- Bootstrap Icons:
+  - https://mdbootstrap.com/content/icons-list/
+- Bootstrap Position:
+  - https://mdbootstrap.com/utilities/bootstrap-position/
 
 Adding other code snippets from the lesson to `index.html`:
 
 - Footer text
 - Forms and inputs
 - Images
+- Embeds - skipping for now
+- Icons
+- Buttons - Pro component
+- Social Buttons - Pro component
 
 #### Lesson 10: Navigation - Bells and Whistles
 
