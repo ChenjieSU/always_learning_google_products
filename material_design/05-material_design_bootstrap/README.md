@@ -19,6 +19,9 @@ Thinking it is a good time to take a look at Material Design for Bootstrap.
   - License: https://mdbootstrap.com/license/
   - Support: https://mdbootstrap.com/forums/forum/support/
   - Contact: office@mdbootstrap.com
+
+### References From Lesson 9 of the Landing Page Tutorial:
+
 - Footer docs:
   - https://mdbootstrap.com/components/bootstrap-footer/#basic
 - Other links found studying the footer docs:
@@ -30,6 +33,21 @@ Thinking it is a good time to take a look at Material Design for Bootstrap.
   - Bootstrap Embeds: https://mdbootstrap.com/utilities/bootstrap-embeds/
   - Bootstrap Icons: https://mdbootstrap.com/content/icons-list/
   - Bootstrap Position: https://mdbootstrap.com/utilities/bootstrap-position/
+- For more information, see the `02-landing_page` subdirectory
+
+### References From the Corporate Website Tutorial:
+
+- Navbar docs, basic example:
+  - https://mdbootstrap.com/components/navbar/#basic-example
+- Bootstrap Colors:
+  - https://mdbootstrap.com/css/colors/
+- Bootstrap Cards:
+  - https://mdbootstrap.com/components/cards/
+  - Waves Effect: https://mdbootstrap.com/components/cards/#waves-effect
+- Bootstrap Buttons:
+  - https://mdbootstrap.com/components/buttons/
+- For more information, see the `03-corporate_website` subdirectory
+  - The `README.md` file there explains how some of the css classes work
 
 ## Directories
 
@@ -41,6 +59,9 @@ Thinking it is a good time to take a look at Material Design for Bootstrap.
 - `02-landing_page`
   - MDBootstrap Landing Page Tutorial
   - https://mdbootstrap.com/landing-page-lesson-1/
+- `03-corporate_website`
+  - MDBootstrap Corporate Website Tutorial
+  - https://mdbootstrap.com/corporate-website-lesson-1/
 
 ## Details
 
@@ -59,4 +80,6 @@ See the README.md file in that directory.
 ### `03-corporate_website`
 
 See the README.md file in that directory.
+
+- The `README.md` file there explains how the css classes work for column widths, margins, and padding
 
