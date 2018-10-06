@@ -20,17 +20,36 @@ Thinking it is a good time to take a look at Material Design for Bootstrap.
   - Support: https://mdbootstrap.com/forums/forum/support/
   - Contact: office@mdbootstrap.com
 
-### References From Lesson 9 of the Landing Page Tutorial:
+### Important pages:
+
+While workiing on groja.com, I find myself frequently using these pages:
+
+- Bootstrap Layout: https://mdbootstrap.com/layout/bootstrap-layout/
+- Grid System: https://mdbootstrap.com/layout/layout-grid/
+  - Based on Flexbox: https://mdbootstrap.com/utilities/flexbox/
+  - Start a new row without defining a new row div: https://mdbootstrap.com/layout/layout-grid/#equal-multi
+- Typography: https://mdbootstrap.com/content/typography/
+- Bootstrap Text Utilities: https://mdbootstrap.com/utilities/bootstrap-text/
+- Bootstrap Buttons: https://mdbootstrap.com/components/buttons/
+- Lists: https://mdbootstrap.com/components/list-group/
+  - More on lists, including description lists, on the typography page here:
+    - https://mdbootstrap.com/content/typography/#lists
+- Icons:
+  - Markup examples: https://mdbootstrap.com/content/icons/
+  - List: https://mdbootstrap.com/content/icons-list/
+- Panels: https://mdbootstrap.com/components/panels/
+- Bootstrap Images: https://mdbootstrap.com/content/bootstrap-images/
+- Bootstrap Embeds: https://mdbootstrap.com/utilities/bootstrap-embeds/
+- Bootstrap Jumbotron: https://mdbootstrap.com/components/bootstrap-jumbotron/
+- Bootstrap Sizing: https://mdbootstrap.com/utilities/bootstrap-sizing/
+
+### More References From Lesson 9 of the Landing Page Tutorial:
 
 - Footer docs:
   - https://mdbootstrap.com/components/bootstrap-footer/#basic
 - Other links found studying the footer docs:
-  - Typography: https://mdbootstrap.com/content/typography/
-  - Bootstrap Text Utilities: https://mdbootstrap.com/utilities/bootstrap-text/
   - Bootstrap Forms: https://mdbootstrap.com/components/forms/
   - Bootstrap Inputs: https://mdbootstrap.com/components/inputs/
-  - Bootstrap Images: https://mdbootstrap.com/content/bootstrap-images/
-  - Bootstrap Embeds: https://mdbootstrap.com/utilities/bootstrap-embeds/
   - Bootstrap Icons: https://mdbootstrap.com/content/icons-list/
   - Bootstrap Position: https://mdbootstrap.com/utilities/bootstrap-position/
 - For more information, see the `02-landing_page` subdirectory
