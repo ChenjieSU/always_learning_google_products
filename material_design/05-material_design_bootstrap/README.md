@@ -94,11 +94,21 @@ Looks worth exploring further.
 
 ### `02-landing_page`
 
-See the README.md file in that directory.
+This is the code for the tutorial.
+
+We are using this on groja.com .
+
+For details, see the README.md file in that directory.
 
 ### `03-corporate_website`
 
 See the README.md file in that directory.
 
 - The `README.md` file there explains how the css classes work for column widths, margins, and padding
+
+### `04-landing_page_freebie`
+
+This is code downloaded from: https://mdbootstrap.com/previews/free-templates/landing-page/form.html .
+
+Found the link to that page on the freebies page, here: https://mdbootstrap.com/freebies/
 
