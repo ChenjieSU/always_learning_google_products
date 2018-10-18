@@ -42,6 +42,9 @@ While workiing on groja.com, I find myself frequently using these pages:
 - Bootstrap Embeds: https://mdbootstrap.com/utilities/bootstrap-embeds/
 - Bootstrap Jumbotron: https://mdbootstrap.com/components/bootstrap-jumbotron/
 - Bootstrap Sizing: https://mdbootstrap.com/utilities/bootstrap-sizing/
+- Bootstrap Backgrounds: https://mdbootstrap.com/css/bootstrap-background-image/
+- Bootstrap Masks: https://mdbootstrap.com/css/masks/
+
 
 ### More References From Lesson 9 of the Landing Page Tutorial:
 
