@@ -1,13 +1,73 @@
 
 # material_design/README.md
 
+## New Goal for 2019
+
+Want to make a super-simple site for joomoowebsites.com
+
+- Sell python/material design brochure-ware sites
+- Use existing python/md sites in portfolio
+- Use flask
+- Possibly use MDL or MUI?
+  - Tried MDL before, not impressed
+     - **But** I want something **super-simple** for this
+     - Save complexity for portfolio
+  - **Try MUI:**
+    - https://www.muicss.com/docs/v1/getting-started/introduction
+
 ## References
+
+### Original
 
 - Material Design - Web Codelabs: https://material.io/collections/developer-tutorials/#web
 - A good starting point for frameworks:
   - https://tutorialzine.com/2016/03/the-15-best-material-design-frameworks-and-libraries
   - **Note the bonus icons at the end**
 - Using webpack: https://webpack.js.org/
+
+### New References for 2019
+
+- MDB = Material Design Bootstrap
+- MDL = Material Design Lite
+- MUI = MUI
+
+- 10 Best:
+  - https://www.bootstrapdash.com/material-design-frameworks/#Material_Foundation
+  - Includes Materialize and MUI
+  - Missing MDB and MDL
+- 14 Best:
+  - https://1stwebdesigner.com/material-design-ui-kits/
+  - Includes 1. MUI, 3. Materialize, 4. MDL, 6. MDB
+- 20 Best:
+  - https://tutsforweb.com/20-best-material-design-frameworks-and-libraries/
+  - Includes Materialize and MDL
+  - Missing MUI and MDB
+- 25 Best:
+  - https://cssauthor.com/material-design-frameworks/
+  - Includes MDL, Materialize, MUI, MDB
+  - Missing MDB
+
+- These look interesting but I am not going to pursue them right now:
+  - Material:
+    - http://daemonite.github.io/material/
+    - from 10 best and 20 best
+  - Surface:
+    - https://mildrenben.github.io/surface/getting-started.html
+    - from 10 best, 14 best, and 20 best
+  - Material UI:
+    - https://material-ui.com/
+    - for use with React
+    - from 10 best, 14 best, and 20 best
+  - Material Foundation:
+    - http://materialfoundation.mikolajdobrucki.com/
+    - from 10 best and 20 best
+  - Material CSS:
+    - http://material-css.kearlsaint.com/
+    - from 25 best
+  - Material Framework:
+    - https://nt1m.github.io/material-framework/#menus
+    - from 25 best
+
 
 ### References Used for Deciding
 
