@@ -128,5 +128,6 @@ Want to make a super-simple site for joomoowebsites.com
   - Looking to re-do those landing pages
   - Want to look at a bunch of them and think about it for awhile
 - `07-mui`
-  - Thinking about using this on joomoowebsites.com or tomhartung.com
-
+  - Thinking about using MUI on joomoowebsites.com or tomhartung.com
+- `08-mdl`
+  - Thinking about using MDL on joomoowebsites.com or tomhartung.com
