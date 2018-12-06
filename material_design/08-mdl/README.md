@@ -25,9 +25,19 @@ Want to take a closer look at MDL - Material Design Lite.
 
 ### `01-blog`
 
+- Contains two html files: `entry.html` and `index.html`
+
 ### `02-portfolio`
+
+- Contains several html files: `about.html` , `blog.html` , `contact.html` , `index.html` , and `portfolio-example01.html` ,
+- This is by far the most interesting of the example templates
+- It includes a `Tutorial` subdirectory with many more example pages
 
 ### `03-text-only`
 
+- Contains only one html file: `index.html`
+
 ### `04-article`
+
+- Contains only one html file: `index.html`
 
