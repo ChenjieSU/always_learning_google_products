@@ -1,0 +1,15 @@
+
+Setup:
+  cp 01-blog/Site/blog/static/style.css style-01.css
+  cp 02-landing_page/Site/landing-page/static/style.css style-02.css
+  cp 03-landing_page_with_extras/Site/landing-page-with-extras/static/style.css style-03.css
+  cp 04-responsive_side_menu/Site/responsive-side-menu/static/style.css style-04.css
+
+Notes:
+  style-01 is the smallest, and we do not want the site to look like that
+  style-02 and style-03 are very similar.
+  style-04 is much bigger than the others.
+
+Strategy:
+  Use style-04.css , and add content from style-03.css if necessary
+
