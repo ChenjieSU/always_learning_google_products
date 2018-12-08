@@ -1,0 +1,21 @@
+
+Strategy for getting from MUI downloaded sample code to what I want for tomhartung.com .
+
+Header: css link tags - mostly use CDN
+
+- Pull common elements out of each index.html file into base.html template
+- Any additional link tags in 03-landing_page_with_extras put in home.html template
+   - That is the only page we want with those effects
+- Exception: font-awesome css
+  - Put in base.html so we can use them on all pages
+- See css/style-00.txt for more details
+
+Navigation:
+1. Started out with the repsonsive_side_menu MUI example template
+2. Decided to go with something similar to the landing_page MUI example template
+3. May want to use, or mix in elements of the repsonsive_side_menu template later
+
+Body:
+
+- Use versions.html template for any markup needed for "normal," non-landing pages
+
