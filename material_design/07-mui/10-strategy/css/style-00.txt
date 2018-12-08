@@ -10,6 +10,15 @@ Notes:
   style-02 and style-03 are very similar.
   style-04 is much bigger than the others.
 
-Strategy:
+Strategy 1:
   Use style-04.css , and add content from style-03.css if necessary
+
+Update:
+  Decided we do not have any need for the responsive side menu right now
+  Saving the current version of base.html as responsive_side_menu-base.html
+  Reverting to basing the navigation base.html on the 02-landing_page example
+
+Strategy 2:
+  Use style-02.css , and add content from style-03.css if necessary
+  The need to add content from style-03.css seems unlikely, given they are very similar
 
